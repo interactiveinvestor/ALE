@@ -1,0 +1,31 @@
+name       							 	= Theme X
+description 							= Madeofcode Theme X
+screenshot  							= images/themex.jpg
+
+core        							= 7.x
+engine      							= phptemplate
+
+stylesheets[all][]        = css/system.css
+stylesheets[all][]        = css/main.css
+stylesheets[all][]        = css/navigation.css
+stylesheets[all][]        = css/layout.css
+stylesheets[all][]        = css/components.css
+stylesheets[all][]        = css/sections.css
+
+stylesheets[all][]        = css/css3.css
+
+stylesheets[all][]        = css/ipad.css
+stylesheets[all][]        = css/mobile.css
+stylesheets[all][]        = css/media-queries.css
+
+regions[top_nav]		= Top Nav
+regions[header]			  = Header
+regions[content_top]      = Content Top
+regions[left_column]      = Left Column
+regions[content]          = Content
+regions[right_column]     = Right Column
+regions[content_bottom]   = Content Bottom
+regions[footer]           = Footer
+regions[outer]         	  = Outer
+
+

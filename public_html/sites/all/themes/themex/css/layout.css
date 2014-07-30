@@ -1,0 +1,187 @@
+/* @group Main Elements */
+
+#wrapper{
+	position: relative;
+	margin: 0 auto;
+	width: 96%;
+	max-width: 1120px;
+	overflow: visible;
+	overflow-x:visible;
+	padding-bottom: 20px;
+}
+
+
+.front #header{
+	margin-bottom: 0;
+}
+
+#header{
+	/*margin-bottom: 30px;*/
+    overflow: visible;
+    padding-top: 20px;
+    
+    z-index: 100;
+    position: relative;
+}
+
+#page{
+    float: left;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+
+#page .main-content{
+	border-top: 1px solid black;
+	padding-top: 20px;
+	width: 100%;
+	position: relative;
+	float: left;
+	clear: both;
+}
+
+.page-holder{
+	float: left;
+    position: relative;
+    width: 100%;	
+}
+
+
+/*.page-node-293 #page{
+	margin-top: 10px;
+}*/
+
+.node-type-property-information .main-content{
+	padding-top: 10px !important;
+}
+
+.page-holder > .page-title{
+	padding-top: 15px;
+	padding-bottom: 11px;
+	z-index: ;
+	font-family: HNMC, Arial;
+    text-transform: uppercase;
+}
+
+/* @end */
+
+/* @group Header */
+
+#logo{
+	position: relative;
+	float: left;
+	clear: both;
+	width: 80%;	
+}
+
+#logo a{
+	display: block;
+	width: 100%;
+}
+
+#logo a > *{
+	position: relative;
+	float: left;
+}
+
+#logo img{
+	margin-right: 30px;
+	top: -2px;
+}
+
+#site-slogan{
+	color: #76787B !important;
+    font-family: HNTC,Arial;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+    top: 32px;
+}
+
+/* @group Footer */
+
+/* @group Sticky Footer */
+
+html, body, #wrapper { height: 100%; }
+
+body > #wrapper {height: auto; min-height: 100%;}
+
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {display: inline-block;}
+
+html .clearfix { height: 1%;}
+.clearfix {display: block;}
+
+#footer{
+	
+	width: 100%;
+	padding: 10px 2% ;
+	background-color: white;
+	overflow: visible;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	border-top: 2px solid #797b7e;
+	position: relative;
+	margin-top: -85px; /* negative value of footer height */
+	min-height: 40px;
+	clear:both;
+	z-index: 20;
+	
+}
+
+
+/* @end */
+
+/* @end */
+
+/* @end */
+
+/* @group Content */
+
+.page-my-compendium #page, .page-advanced-property-search #page{
+	border-top: 0;
+	top: -15px;
+}
+
+#page .node{}
+
+#page > .region{}
+
+.region-content, .subholder{}
+
+.main-content{
+	position: relative;
+	overflow: visible;
+
+}
+
+.node-type-property-information .main-content{
+	overflow: auto;
+}
+
+.main-content img{}
+
+/* @end */
+
+.copyright{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.copyright a{
+	color: #797B7E;
+}
+
+.copyright a:hover{
+	color: black;
+}

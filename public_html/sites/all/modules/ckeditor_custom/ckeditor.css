@@ -1,0 +1,42 @@
+.hnbc{
+	font-family: 'HelveticaNeueW01-77BdCn 692722';
+}
+
+.hnmc{
+	font-family: 'HelveticaNeueW01-67MdCn 692710';
+}
+/*@font-face {  
+    font-family: 'Helvetica Neue Bold Condensed';  font name for the feature use
+    src: url(fonts/Dekers_light.eot );  IE   
+    src: local("'Helvetica Neue Bold Condensed'"), url("fonts/hnbc.ttf") format("truetype"); non-IE  
+}
+
+@font-face {  
+    font-family: 'Helvetica Neue Medium Condensed';  font name for the feature use
+    src: url(fonts/Dekers_light.eot );  IE   
+    src: local("Helvetica Neue Medium Condensed"), url("fonts/hnmc.ttf") format("truetype"); non-IE  
+}*/
+
+@font-face {
+	font-family: 'HelveticaNeueW01-67MdCn 692710'; 
+    src: local('HelveticaNeueW01-67MdCn 692710'), url("fonts/hnmc.ttf") format("truetype"); /*non-IE*/  
+}
+
+
+@font-face {  
+    font-family: 'Helvetica Neue Medium Condensed';  /*font name for the feature use*/
+    /*src: url(fonts/Dekers_light.eot );  IE*/   
+}
+
+.big-heading{
+	font-family: Calibri, Arial;
+	font-size: 41px;
+	color: white;
+}
+
+
+.blue-heading{
+	color: #3ea0e2;
+	font-size: 1.5em;
+	font-family: HNL;
+}

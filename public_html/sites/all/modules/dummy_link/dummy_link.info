@@ -1,0 +1,4 @@
+name = Dummy Links
+description = Enables Dummy Links in menus
+core = 7.x
+dependencies[] = menu

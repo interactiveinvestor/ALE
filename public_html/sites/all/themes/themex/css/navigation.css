@@ -1,0 +1,407 @@
+/* @group General */
+
+a{}
+a:hover, input:hover,.breadcrumbs a:hover{color: #00aeef;}
+input:hover,.property-search-results th a:hover{color: #00aeef !important;}
+/*input{
+	cursor: pointer;
+}*/
+
+.form-text{
+	font-size: 1em;
+	color: #797b7e;
+	font-family: HNC, Arial;
+}
+
+.form-submit{
+	font-size: 14px;
+}
+
+#edit-submit{
+	cursor: pointer;
+}
+/* @end */
+
+/* @group Main menu */
+
+nav .button{display: none;}
+nav{
+	z-index: 100;
+	 clear: both;
+    float: left;
+    margin-top: 15px;
+    overflow: visible;
+    position: relative;
+    width: 100%;	
+}
+nav > ul ul{
+	background-color: white;
+    display: none;
+    left: -2%;
+    padding: 2%;
+    position: absolute;
+    top: 100%;
+    width: 104%;
+    z-index: 100;  
+}
+nav > ul > li > a{padding-bottom: 5px;}
+nav > ul li:hover ul{display: block;}
+nav > ul ul li{
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+nav > ul ul a{border-top: 1px solid black;}
+nav ul > li{
+	position: relative;
+	float: left;
+	width: 19%;
+	margin-right: 1.25%;
+}
+nav li.last{margin-right: 0;}
+
+.nav-desktop  ul{
+	display: block !important;
+	visibility: visible !important;
+	height: auto !important;
+}
+.nav-desktop ul ul{display: none !important;}
+.nav-desktop li:hover ul{display: block !important;}
+
+nav a{
+	text-transform: uppercase;
+	color: black;	
+	font-size: 1.1em;
+	font-family: HNC, Arial;
+	padding-top: 7px;
+	border-top: 9px solid black;
+	display: block;
+	width: 100%;
+}
+
+nav li:hover > a, .nav-selected > a{
+	border-color: #00aeef;
+	color: #00aeef;
+}
+
+.mobile-site nav {background-color: white;}
+.mobile-site nav  .button{
+	background: url("images/menu-icon.png") no-repeat scroll center center transparent;
+    border: medium none;
+    display: block;
+    height: 20px;
+    padding: 20px;
+    position: absolute;
+    right: 3px;
+    top: -47px;
+    width: 30px;
+}
+.mobile-site nav  ul{
+	display: none;
+	overflow: hidden;
+}
+.mobile-site nav  > ul{margin-top: -7px;}
+.mobile-site nav  ul li{width: 100%;}
+.mobile-site nav  ul li a{
+	border-top: 6px solid black;
+	padding-left: 10px;
+	font-size: 1em !important;
+}
+.mobile-site nav  ul ul{padding: 0px 10px;}
+.mobile-site nav  > ul > .last a{border-bottom:6px solid black ;}
+.mobile-site nav  ul ul{
+	display: none;
+	position: relative;
+	top: 0;
+	padding-top: 0px;
+	width: auto;
+	left: 0;
+	overflow: auto;
+}
+.mobile-site nav li .expanded{background: none !important;}
+.mobile-site nav  ul ul li a{
+	border-top: 1px solid black;
+	padding-bottom: 5px;
+	padding-left: 0;
+	font-size: 0.8em !important;
+}
+.mobile-site nav  ul ul .last{padding-bottom: 20px;}
+
+/* @end */
+
+/* @group Footer menu */
+
+.footer-menu{
+	position: relative;
+	width: 100%;
+	z-index: 10;
+}
+.footer-menu ul{
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+.footer-menu li{
+	display: inline-block;
+	position: relative;
+}
+.footer-menu li a{
+	font-family: HNC, Arial;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	display: block;
+	padding: 0px 15px;
+	color: #797b7e;
+	border-right: 1px solid #797b7e ;
+	line-height: 0.9 em;
+}
+.footer-menu .last a{border-right:none;}
+.footer-menu li a:hover{color: black;}
+
+/* @end */
+
+/* @group Breadcrumbs */
+
+.breadcrumbs{
+	padding-bottom: 5px;
+	position: relative;
+	float: left;
+	/*position: relative;
+	float: left;
+	clear: both;	
+	width: 100%;*/
+}
+
+.breadcrumbs li{
+	text-transform: uppercase;
+	font-size: 0.85em;
+	position: relative;
+	float: left;
+	margin-right: 5px;
+}
+
+.breadcrumbs a{
+	text-transform: uppercase;
+	color: #76787B;
+}
+
+
+
+.breadcrumbs .separator{
+	top: 0px;
+	font-size: 0.7em;
+}
+
+.breadcrumbs a:hover{}
+
+/* @end */
+
+
+/* @group Top Nav */
+.top-nav{
+	position: relative;
+	width: 19%;
+	float: right;
+}
+.top-nav li{width: 100%;}
+.top-nav a{
+	font-family: HNTC, Arial;
+	text-transform: uppercase;
+	color: #76787b;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	
+}
+
+
+.top-nav a:hover{color: black;}
+.top-nav .my-compendium a{
+	padding-right: 20px;
+	background: url(images/compendium.gif) no-repeat 100% center;
+}
+
+/* @end */
+
+/* @group Page sub menu */
+
+.page-sub-menu, .menu{
+	font-family: HNLC, Arial;
+	text-transform: uppercase;
+	color: #76787b;
+	position: relative;
+	overflow: visible;
+}
+
+.page-sub-menu input{
+	background:none;
+	border: none;
+	width: 100%;
+	text-align: left;
+}
+
+.page-sub-menu label, .page-sub-menu input,.page-sub-menu .note, .menu a,.desktop-site .search-by .label{
+	font-family: HNLC, Arial;
+	text-transform: uppercase;
+	color: #76787b;
+	font-size: 1.3em;
+	font-weight: normal;
+	border-top: 1px solid #76787b;
+	white-space:normal;
+	padding-top: 4px;
+	cursor: pointer;
+}
+
+
+.desktop-site .search-by .label{
+	cursor: auto;
+}
+
+
+.page-sub-menu > li:hover > label, .page-sub-menu label:hover, .page-sub-menu input:hover{
+	color: black;
+	border-top-color: black;
+}
+.page-sub-menu .last{margin-right: 0;}
+
+.page-sub-menu li, .menu li{
+	float: left;
+    margin-right: 1.25%;
+    position: relative;
+    width: 19%;
+    list-style-type: none;
+}
+.page-my-compendium .page-sub-menu li{
+	float: right;
+	margin-right: 0;
+	margin-left: 1.25%;
+}
+.page-my-compendium .page-sub-menu .note{
+	width: 39.22%;
+	margin-left: 0;
+	float: left;
+}
+.page-sub-menu .note{
+	cursor: auto;
+	border-top: none;
+	/*font-size: 1.3em;*/
+	padding-top: 5px;
+}
+.page-sub-menu  ul{
+	position: absolute;
+	top: 100%;
+	padding-top: 5px;
+	width: 100%;
+	left: 0;
+	display: none;
+	background: white;
+	border: 1px solid #f6f6f6;
+	z-index: 100;
+	border-top: none;
+}
+.page-sub-menu li:hover ul{display: block;}
+.page-sub-menu ul li{
+	width: 100%;
+	position: relative;
+	float: left;
+	clear: both;
+	padding-right: 0;
+	padding-top: 0px;
+	
+}
+.page-sub-menu ul li label{padding-top: 3px;}
+.page-sub-menu ul li label{
+	border-top-color: black;
+    font-size: 1.1em;
+    line-height: 30px;
+    padding-left: 28px;
+}
+
+
+
+.page-sub-menu ul input{
+	position: absolute;
+	left: 5px !important;
+	width: auto;
+	top: 13px;
+	z-index: 100;
+}
+.menu{
+	position: relative;
+	float: right;
+	width: 100%;
+	margin-top: 13px;
+}
+.menu li{
+	position: relative;
+	float: right;
+	margin-left: 1.25% !important;
+	list-style-type: none !important;
+	list-style-image:none !important;
+}
+.menu li a{
+	width: 100%;
+	display: block;
+}
+.menu li a:hover,a.active{color: #00aeef !important;}
+
+/* @end */
+.tabs{
+	position: relative;
+	float: left;
+	clear: both;
+	padding: 10px 0px;
+}
+
+
+
+/* @group Search */
+#search-api-page-search-form-search {
+	position: relative;
+}
+
+#search-api-page-search-form-search .form-type-textfield{
+	margin-top: 10px;
+}
+
+#search-block-form{
+	
+}
+
+.form-item-search-block-form, .block-search-api-page input{
+	width: 100%;
+}
+
+.block-search-api-page .form-text{
+	padding-right: 26px !important;
+}
+
+
+.form-item-search-block-form{
+	display: block !important;
+	position: relative;
+	margin: 10px 0px 0px;
+}
+
+#block-search-api-page-search .btn input{
+	background: url(images/search.png) no-repeat center center;
+	border: none;
+	font-size: 0em;
+	text-indent: -99999px;
+	width: 15px;
+	height: 16px;
+	position: absolute;
+	right: 2px;
+	top: 3px;
+	cursor: pointer;
+	
+}
+
+.ipad-site #block-search-api-page-search .btn input{
+	right: 2px;
+	top: 1px;
+}
+
+/* @end */
+

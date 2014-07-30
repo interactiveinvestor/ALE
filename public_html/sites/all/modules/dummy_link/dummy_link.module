@@ -1,0 +1,10 @@
+<?php
+
+
+function dummy_link_form_alter(&$form, &$form_state, $form_id) {
+  if ('menu_edit_item' == $form_id) {
+
+    $form['link_path']['#description'] .= ' ' . t('Enter %none to have a menu item that generates no link.', array('%none' => '<none>'));
+  }
+}
+

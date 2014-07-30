@@ -1,0 +1,27 @@
+<FORM>
+	<FIELDS>
+		<FIELD ID='username'>
+			<TYPE>text</TYPE>
+			<LABEL POSITION='before'>Your Email</LABEL>
+			<REQUIRED>TRUE</REQUIRED>
+			<VALIDATION>
+				<FUNCTION>email</FUNCTION>			
+				<MAX-LENGTH>100</MAX-LENGTH>
+			</VALIDATION>
+		</FIELD>
+		<FIELD ID='hashed-password'>
+			<TYPE>password</TYPE>
+			<LABEL POSITION='before'>Password</LABEL>	
+			<REQUIRED>TRUE</REQUIRED>
+			<VALIDATION>
+				<MAX-LENGTH>100</MAX-LENGTH>
+			</VALIDATION>
+		</FIELD>
+	</FIELDS>
+	<OPTIONS>
+		<FORM-ID>send-page</FORM-ID>
+		<SUBMIT>
+			<VALUE>Save</VALUE>
+		</SUBMIT>
+	</OPTIONS>
+</FORM>

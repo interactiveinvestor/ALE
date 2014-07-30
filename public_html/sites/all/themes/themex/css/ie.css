@@ -1,0 +1,23 @@
+@font-face {
+	font-family:HNC ;
+	src: url('fonts/HNC.eot');
+}
+
+@font-face {
+	font-family:HNTC ;
+	src: url('fonts/HNTC.eot');
+}
+
+@font-face {
+	font-family:HNLC ;
+	src: url('fonts/HNLC.eot');
+}
+
+@font-face {
+	font-family:HNMC ;
+	src: url('fonts/HNMC.eot');
+}
+
+img{
+	-ms-interpolation-mode: bicubic;
+}

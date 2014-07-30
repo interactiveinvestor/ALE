@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * 
+ * Field weight module install file.
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function field_weight_schema() {
+  $schema['field_weight'] = array(
+    'description' => 'Field weight table.', 
+    'fields' => array(
+      'nid' => array(
+        'description' => 'The primary identifier for a node.',
+        'type' => 'int',
+        'unsigned' => TRUE, 
+        'not null' => TRUE,
+      ), 
+      'type' => array(
+        'description' => 'The bundle type of this node.', 
+        'type' => 'varchar', 
+        'length' => 32, 
+        'not null' => TRUE,
+      ),
+      'field_weights' => array(
+        'description' => 'Serialised array of keyed array containing field_name => weight.',
+        'type' => 'blob',
+        'not null' => TRUE,
+      ), 
+    ),
+    'primary key' => array('nid'),
+  );
+  
+  return $schema;
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function field_weight_uninstall() {
+  variable_del('field_weight_node_types');
+}

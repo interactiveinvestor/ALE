@@ -1,0 +1,463 @@
+/* @group Admin Menu Fix */
+
+/**/
+/*#admin-menu{
+	display: none !important;
+}*/
+
+input::-webkit-input-placeholder,
+input:-moz-placeholder {
+  color: black !important;
+}
+
+html body.admin-menu{
+	margin-top: 0px !important;
+}
+
+.admin-menu-search .form-item{
+	margin: 0px !important;
+}
+
+/* @end */
+
+.info-box{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: auto;
+	padding: 8px;
+	font-size: 11px;
+	background: rgba(0,0,0,0.72);
+	color: #b1c8fd;
+	z-index: 1000;
+	border-radius:8px 0px 0px 0px;
+	/*display: none !important;*/
+}
+
+.item-list ul li{
+	margin: 0 ;
+	
+}
+
+.item-list ul{
+	margin: 0;
+}
+
+
+
+/* @group Messages */
+
+
+.messages ul{
+	height: 100%;
+}
+
+.message {
+	clear: both;
+	position: relative;
+	padding: 5px;
+}
+
+.message > ul > li{
+	list-style-type: square !important;
+	height: 100%;
+	float: left;
+	margin-left: 20px;
+}
+
+.warning .messageExcerpt > a{
+	color: #e6661b;
+}
+
+
+
+.messages h2{
+	font-size: 14px;
+}
+
+.messages a{
+	display: inline;
+}
+
+div.status, .ok, div.status a {
+    color: #579e19;
+    background-image: none;
+    background-color: transparent;
+}
+
+div.error, table tr.error {
+    background:transparent !important;
+}
+
+div.error{
+	background-image: none;
+}
+
+div.error a{
+	color: #e25018;
+	list-style-type: square;
+}
+
+div.messages{
+  	background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    list-style-type: 0;
+    overflow: auto;
+    padding: 5px 0 !important;
+	font-size: .85em;
+	line-height: 1.7em;
+}
+
+.messages-holder{
+	position: fixed;
+	bottom: 40px;
+	width: 100%;
+	 z-index: 1000;
+}
+
+.messages .message{
+	position: relative;
+	float: left;
+	clear: none;
+	width: 100%;
+	
+}
+
+.messages .message > *{
+	width: 100%;
+}
+
+div.message ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+.krumo-root{
+	padding: 5px;
+	background: white;
+	border: 1px solid #e5e5e5 !important;
+	width: 100%;
+}
+
+ul.krumo-node{
+	/*border: 1px solid #e5e5e5 !important;*/
+}
+
+a.krumo-name{
+	display: block;
+	position: absolute;
+	left: 10px;
+	padding-top: 5px;
+}
+
+li.krumo-child{
+	position: relative;
+	text-align: right !important;
+	padding-right: 10p !importantx;
+}
+
+div.krumo-element{
+	padding-right: 10px!important;
+}
+
+div.krumo-expand {
+    background: none repeat scroll 0 0 #CCCCCC;
+    cursor: pointer;
+}
+
+.krumo-root{
+	top: 49px !important;
+	max-height: 1000px !important;
+	overflow: auto;
+	overflow-x:hidden;
+	width: 94%;
+
+}
+
+._krumoName {
+	float: left;
+	/*margin:0px 5px;*/
+}
+
+._krumoName a{
+	color: #1c25a3;
+}
+
+div.krumo-root{
+	margin: 0 !important;
+bottom: 20px !important;
+}
+
+
+.hidden-message{
+background: white;
+    border: 1px solid #E7E7E7;
+    line-height: 18px;
+    padding: 30px;
+    position: fixed;
+    top: 20px !important;
+}
+.krumo-message .hidden-message{
+	padding: 3%px;
+}
+
+div.warning {
+    background-image: none;
+    background-color: transparent;
+}
+
+.anon-messages{
+	clear: both;
+    float: left;
+    padding: 0px 0;
+    position: relative;
+}
+
+.anon-messages .messages{
+	margin: 0;
+	padding: 0;
+}
+
+.anon-messages .message{
+	padding: 0;
+	margin: 10px 0px  0px;
+	font-size: 1.2em;
+}
+
+.mobile-site .messages{
+	padding: 10px;
+}
+
+.mobile-site .anon-messages{
+	border-bottom: 6px solid black;
+	padding-left: 10px;
+	width: 100%;
+	padding-bottom: 8px;
+	background-color: #E6E5E6;
+}
+
+
+.anon-messages .message{
+	margin: 4px 0px 4px;
+}
+
+/* @end */
+
+
+/* @group Tabs */
+
+
+div.tabs {
+  margin: 0 0 5px 0;
+  background: white;
+}
+
+ul.primary {
+	border: none;
+	background: none;
+	padding-left: 0px;
+	margin-left: 0px;
+
+}
+
+ul.primary li {
+	background: none;
+
+}
+
+ul.primary li a {
+	border: none;
+	background: none;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+
+}
+
+ul.primary li a .tab {
+	
+	background: none;
+	padding: 0 !important;
+  
+}
+
+ul.primary li a:hover,
+ul.primary li a:focus {
+	background: none;
+
+}
+
+ul.primary li a:hover .tab,
+ul.primary li a:focus .tab {
+	background: none;
+
+}
+
+ul.primary li.active a,
+ul.primary li.active a:hover,
+ul.primary li.active a:focus {
+	background: none;
+	border: none;
+	color: #00aeef;
+	padding: 0;	
+	margin: 0;
+	/*text-decoration: underline;*/
+	font-weight: bold;
+
+}
+
+ul.primary li.active a .tab,
+ul.primary li.active a:hover .tab,
+ul.primary li.active a:focus .tab {
+	background: none;
+	border: none;
+	
+  background: url(../images/tab-right.png) no-repeat right 0;
+}
+
+ul.secondary {
+	background: none;
+
+}
+
+ul.secondary li {
+	background: none;
+
+}
+
+ul.secondary a {
+	background: none;
+
+}
+
+ul.secondary a .tab {
+
+}
+
+ul.secondary a:hover,
+ul.secondary a:focus {
+	background: none;
+  background: url(../images/tab-secondary.png) repeat-x left bottom;
+}
+
+ul.secondary a.active,
+ul.secondary a.active:hover,
+ul.secondary a.active:focus {
+	background: none;
+	border: none;
+  border: 1px solid #c0c0c0;
+  color: #000;
+  background: url(../images/tab-secondary.png) repeat-x left top;
+}
+
+.tabs {
+	background-color: white !important;
+    border-radius: 0 0 0 0;
+    float: left;
+    margin: 0 !important;
+    overflow: visible;
+    padding: 3px 10px;
+    position: relative;
+    
+}
+
+.tabs li{
+	position: relative;
+	float: left;
+	margin: 0px 7px;
+}
+
+.tabs li a{
+	color: #464646;
+}
+
+.tabs li a:hover{
+	color: #00aeef;
+}
+
+div.tabs {
+    margin: 2px 0 5px;
+}
+
+.tabs .tabs a{
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+
+/* @end */
+
+body.admin-menu {
+    margin-top: 0px !important;
+}
+
+li.expanded, li.collapsed, li.leaf {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.comment-add{
+	display: none !important;
+}
+
+
+/* @group Fields */
+
+.field {
+	position: relative;
+	overflow: auto;
+	/*float: left;*/
+	/*margin-right: 30px;
+	margin-top: 10px;*/
+}
+
+.field .field-label{
+	position: relative;
+	float: left;
+	margin-right: 5px;
+	font-family: HNL, Arial;
+
+	font-weight: normal;
+	color: #757575;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.field .field-label *{
+	font-weight: normal ;
+}
+
+
+.field .field-items{
+	position: relative;
+	float: left;
+	
+}
+
+
+/* @end */
+
+#admin-menu, #admin-menu .dropdown {
+    line-height: 1.4em;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    z-index: 100000;
+}
+
+#overlay-container, .overlay-modal-background, .overlay-element{
+	z-index: 9999;
+}
+
+.profile {
+    clear: both;
+    margin: 0 !important;
+}
+
+.contextual-links-wrapper{
+	display: none !important;
+}

@@ -1,0 +1,59 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#ckeditor_custom_id{
+	font-family: HNLC,Arial;
+	color: #76787b;
+	padding: 20px;
+}
+
+
+
+@font-face {
+	font-family:HNC ;
+	src: url('fonts/HNC.ttf');
+}
+
+@font-face {
+	font-family:HNTC ;
+	src: url('fonts/HNTC.ttf');
+}
+
+@font-face {
+	font-family:HNLC ;
+	src: url('fonts/HNLC.ttf');
+}
+
+@font-face {
+	font-family:HNMC ;
+	src: url('fonts/HNMC.ttf');
+}
+
+
+.secondary-heading{
+	font-family: HNMC;
+	color:#76787b ;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.tertiary-heading{
+	font-family: HNLC;
+	color:#76787b ;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+
+
+.body-copy{
+	font-family: HNLC;
+	font-size: 1em;
+	color:#76787b ;
+	font-weight: normal;
+}

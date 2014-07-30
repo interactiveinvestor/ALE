@@ -1,0 +1,184 @@
+<?php
+
+function property_search_menu() {
+	$items = array();
+	$items['advanced-property-search'] = array(
+	'title'=>'Advanced Property Search',
+	'page callback'=>'property_search_page',
+	'access arguments' => array('access content')
+	);
+
+	return $items;
+
+}
+
+function property_search_page(){
+	
+	$modulePath=getcwd().ds.drupal_get_path('module','property_search').'/';	
+	
+	$properties=array();
+	$states=taxonomy_get_tree(3,0,1);
+	
+	if(isset($_POST['advanced-property-search-submit']) && count($_POST)>1){
+		$properties=property_search_search();	
+		$_SESSION['advanced_property_results']=$properties;
+		$_SESSION['advanced_property_results_post_data']=$_POST;
+	}
+	
+	if(isset($_POST['advanced-property-search-clear']) || count($_POST)==1){
+		$_SESSION['advanced_property_results']=$properties=$_SESSION['advanced_property_results_post_data']=array();
+		
+	}
+	
+	
+	if(isset($_SESSION['advanced_property_results_post_data'])){
+		$_POST=$_SESSION['advanced_property_results_post_data'];
+	}
+	
+
+	
+	if(empty($properties) && !empty($_SESSION['advanced_property_results'])){
+		$properties=$_SESSION['advanced_property_results'];
+	}
+	//unset($_SESSION['advanced_property_results_post_data']);
+	array_sort_by_column($properties,'property',SORT_ASC);
+
+	//$properties = (array) $properties;	
+	if(isset($_GET['order'])){
+		$order=$_GET['order'];
+
+		if(strstr($order,'-asc')){
+			$orderDirection=SORT_ASC;
+			$orderField=str_replace('-asc','',$order);
+		}		
+		if(strstr($order,'-desc')){
+			$orderDirection=SORT_DESC;
+			$orderField=str_replace('-desc','',$order);
+		}
+		array_sort_by_column($properties, $orderField,$orderDirection);
+	}
+	
+
+	//if(empty($properties)){
+		drupal_set_message(getTermDescription('Advanced Search Instructions'),'status');
+	//}
+	
+	foreach ($properties as $key => &$result) {		
+		$result['property']="<a href='/".drupal_get_path_alias('node/'.$result['nid'])."' >{$result['property']}</a>";
+	}
+	
+	
+	$template=new __Template($modulePath.'property-search.tpl.php',array('properties'=>$properties,'states'=>$states));
+	return array('#markup' => $template->html);
+	
+}
+
+function array_sort_by_column(&$arr, $col, $dir = SORT_ASC) {
+    $sort_col = array();
+    foreach ($arr as $key=> $row) {
+        $sort_col[$key] = $row[$col];
+    }
+    array_multisort($sort_col, $dir, $arr);
+}
+
+function property_search_search(){
+	
+	foreach ($_POST as $key => $value) {	
+		if(strstr($key,'state-')) $states[]=ucWords(Text::humanize($value));
+		if(strstr($key,'cap-rate-')) $cap_rates[]=$value;		
+		if(strstr($key,'valuation-')) $valuations[]=$value;
+		if(strstr($key,'land-area-')) $land_areas[]=$value;		
+	}
+	
+	$queryInit='SELECT ';
+	$queryFields=' n.nid,n.title as property';
+	$queryTables=' node as n ';
+	$queryConditions=" WHERE n.type='property' ";	
+	
+	if(isset($states)){
+		$queryFields='n.nid,n.title as property';
+		$queryTables=' taxonomy_term_hierarchy as hierarchy  ';
+		$queryTables.=' INNER JOIN taxonomy_term_data as data  ';
+		$queryTables.=" INNER JOIN field_data_field_city as city on city.field_city_tid=hierarchy.tid ";
+		$queryTables.=" INNER JOIN node as n on n.nid=city.entity_id ";	
+		$queryConditions=" WHERE data.name='New South Wales'  AND hierarchy.parent=data.tid ";
+		$queryConditions=" WHERE (";
+		foreach ($states as $key => $state) {
+			$queryConditions.= " (data.name='$state' AND hierarchy.parent=data.tid) OR ";
+		}		
+		$queryConditions=rtrim($queryConditions,'OR ');		
+		$queryConditions.=")";
+	}
+	
+	$queryFields.=',term_data.name as location';
+	$queryTables.=' INNER JOIN field_data_field_city as loc on loc.entity_id=n.nid INNER JOIN taxonomy_term_data as term_data on loc.field_city_tid = term_data.tid';
+	
+	
+	$queryFields.=',valuation.field_valuation_value as valuation';
+	$queryTables.=' INNER JOIN field_data_field_valuation as valuation on valuation.entity_id=n.nid ';
+	if(isset($valuations)){	
+		$queryConditions.=" AND (";
+		foreach ($valuations as $key => $valuation) {
+			$values=explode('-',$valuation);
+			$values[0]=$values[0]*1000000;
+			$values[1]=$values[1]*1000000;
+			$queryConditions.= " (valuation.field_valuation_value > {$values[0]} AND valuation.field_valuation_value < {$values[1]}) OR ";
+		}
+		$queryConditions=rtrim($queryConditions,'OR ');		
+		$queryConditions.=")";		
+	}
+	
+	$queryFields.=',caprate.field_cap_rate_value as capitalisation';
+	$queryTables.=' INNER JOIN field_data_field_cap_rate as caprate on caprate.entity_id=n.nid ';
+	if(isset($cap_rates)){	
+		$queryConditions.=" AND (";
+		foreach ($cap_rates as $key => $cap_rate) {
+			$values=explode('-',str_replace(array('_','+'),array('.','100'),$cap_rate));
+			$queryConditions.= " (caprate.field_cap_rate_value > {$values[0]} AND caprate.field_cap_rate_value <= {$values[1]}) OR ";
+		}
+		$queryConditions=rtrim($queryConditions,'OR ');		
+		$queryConditions.=")";		
+	}
+	
+	$queryFields.=',area.field_land_area_value as land_area';
+	$queryTables.=' INNER JOIN field_data_field_land_area as area on area.entity_id=n.nid ';
+	if(isset($land_areas)){	
+		
+		$queryConditions.=" AND (";
+		foreach ($land_areas as $key => $land_area) {
+			$values=explode('-',str_replace(array('+'),array('100000000000'),$land_area));
+			$queryConditions.= " (area.field_land_area_value > {$values[0]} AND area.field_land_area_value < {$values[1]}) OR ";
+		}
+		$queryConditions=rtrim($queryConditions,'OR ');		
+		$queryConditions.=")";		
+	}
+	
+	$queryFields.=',field_data_field_suburb.field_suburb_value as suburb';
+	$queryTables.=" LEFT JOIN field_data_field_suburb on field_data_field_suburb.entity_id=n.nid ";	
+
+	$query=$queryInit.$queryFields.' FROM '.$queryTables.$queryConditions.' LIMIT 200';
+
+	$results=db_query($query)->fetchAll();
+
+	$properties=array();
+	
+	foreach ($results as $key => $result) {
+		if(!empty($result->suburb)){
+			$result->location=$result->suburb.', '.$result->location;
+		}
+		unset($result->suburb);
+		$properties[$key]=_Array::objToArray($result);
+	}
+	
+
+	global $advancedSearchResultMessage;
+	
+	if(count($properties)==0){
+		
+		$advancedSearchResultMessage='Your search did not return any results, please try again selecting different criteria.';
+	}else{
+		$advancedSearchResultMessage='Your search returned '.count($properties).' results.';
+	}
+	
+	return $properties;
+}

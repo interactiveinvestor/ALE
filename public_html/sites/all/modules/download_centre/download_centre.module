@@ -1,0 +1,141 @@
+<?php
+
+// function download_centre_form_alter(&$form, $form_state, $form_id) {
+// 	echo '<pre>';
+// 	print_r($form_id);	
+// 	echo '</pre>';
+// 	die();
+//   if ($form_id == 'download_node_form') {
+// 		unset($_SESSION['download_centre']); 
+//     $form['#redirect'] = 'download-full-compendium';
+//   }
+// 
+// }
+// 
+// function download_centre_form_submit($form, &$form_state) {
+// 
+// 	unset($_SESSION['download_centre']); 
+//   $form_state['#redirect'] = 'download-full-compendium';
+// }
+
+function download_centre_form_alter(&$form, &$form_state, $form_id) {
+
+  if ($form_id == 'download_node_form') {
+    $form['actions']['submit']['#submit'][] = 'download_centre_node_submit';
+  }
+
+}
+
+function download_centre_node_submit($form, &$form_state) {
+  $form_state['redirect'] = '/download-full-compendium';
+}
+
+function download_centre_init(){
+			unset($_SESSION['download_centre']);
+	$node_path = drupal_get_path_alias($_GET['q']);
+	$paths=explode('/',$node_path);
+	
+
+	
+	if($paths[0]=='download-centre' && isset($paths[1])){
+		$paths=explode('/',$_GET['q']);
+		$nid=array_pop($paths);
+		$node=node_load($nid);
+		$uri=$node->field_file['und'][0]['uri'];
+		$file_url=file_create_url($uri);
+		$info=pathinfo($uri);
+		$extension=$info['extension'];
+		
+
+
+		$file_name=drupal_realpath($uri);
+		$mime = 'application/pdf'; 
+		header('Pragma: public'); 	// required
+		header('Expires: 0');		// no cache
+		header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+		header('Last-Modified: '.gmdate ('D, d M Y H:i:s', filemtime ($file_name)).' GMT');
+		header('Cache-Control: private',false);
+		header('Content-Type: '.$mime);
+		header('Content-Disposition: attachment; filename="'.$node->title.'.'.$extension.'"');
+		header('Content-Transfer-Encoding: binary');
+		header('Content-Length: '.filesize($file_name));	// provide file size
+		header('Connection: close');
+		readfile($file_name);		// push it out
+		exit();
+		
+	}
+
+}
+
+function download_centre_menu() {
+	$items = array();
+	$items['download-full-compendium'] = array(
+	'title'=>'Download Full Compendium',
+	'page callback'=>'download_centre',
+	'access arguments' => array('access content')
+	);
+	return $items;
+}
+
+function download_centre(){	
+	$ua = strtolower($_SERVER['HTTP_USER_AGENT']);
+	if(stripos($ua,'android') !== false) { // && stripos($ua,'mobile') !== false) {
+		drupal_set_message(getTermDescription('Android Download Warning','status'));
+	}
+	
+	$modulePath=getcwd().ds.drupal_get_path('module','download_centre').'/';	
+	//unset($_SESSION['download_centre']);
+	if(!isset($_SESSION['download_centre'])){		
+		$query = new EntityFieldQuery();
+		$query
+		  ->entityCondition('entity_type', 'node', '=')
+		  ->propertyCondition('status', 1, '=')
+		  ->propertyCondition('type', array('download'))
+		  ->propertyOrderBy('created', 'DESC');
+		;
+		$_downloads = current($query->execute());
+		$downloads=array();
+		$years=array();
+		foreach ($_downloads as $key => $download) {
+			$node=node_load($download->nid);
+			$years[]=date('Y',$node->created);
+			$downloads[]=node_view($node,'full_content');
+		}
+		$years=array_unique($years);
+		$_SESSION['download_centre']['downloads']=$downloads;
+		$_SESSION['download_centre']['years']=$years;
+	}else{
+		
+		$years=$_SESSION['download_centre']['years'];
+		$downloads=$_SESSION['download_centre']['downloads'];
+		
+		if(isset($_GET['year'])){
+			foreach ($downloads as $key => &$download) {
+				$year=date('Y',$download['field_file']['#object']->created);
+				if($year!=$_GET['year']) unset($downloads[$key]);
+			}
+		}		
+	}	
+	$template=new __Template($modulePath.'download-centre.tpl.php',
+		array(
+			'downloads'=>$downloads,
+			'years'=>$years,
+			'base_url'=>strtok($_SERVER['REQUEST_URI'],'?')
+		)
+	);
+	return array('#markup' => $template->html);
+	
+}
+
+// function download_centre_node_insert($node){
+// 	if($node->type=='download'){
+// 		unset($_SESSION['download_centre']); 	
+// 			header('Location: /download-full-compendium');
+// 	} 
+// }
+// 
+// function download_centre_node_update($node){
+// 	if($node->type=='download'){
+// 		unset($_SESSION['download_centre']); 	
+// 	} 
+// }

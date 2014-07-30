@@ -1,0 +1,216 @@
+
+/* @group Mobile */
+
+/*@import url(low-res.css)(max-width: 320px);*/
+
+@media screen and (max-width: 380px) and (orientation:portrait) {}
+
+@media screen and (min-width: 600px) and (orientation:landscape) {}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 480px) and (orientation:portrait) {}
+
+@media screen and (max-width: 768px) and (orientation:portrait) {}
+
+/* @end */
+
+@media screen and (max-width: 1024px),only screen and (max-device-width: 1024px) {}
+
+@media screen and (max-width: 1024px) {}
+
+/* @group Desktop */
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {
+	
+	.desktop-site .copyright{
+	position: absolute;
+    right: 55px;
+    text-align: right;
+    top: 0;
+}
+
+#footer{
+	
+	margin-top: -45px; /* negative value of footer height */
+	
+}
+}
+
+
+
+@media screen and (max-width: 525px) {
+	
+.highlights .group-body-holder h4 {
+	
+	font-size: 1.3em;
+}
+	
+}
+
+@media screen and (max-width: 450px) {
+.map-instructions .content{
+	max-width: 260px !important;	
+}
+.highlights li{
+	width: 100%;
+	padding-bottom: 100% !important;
+}
+
+.highlights .group-body-holder h4 {
+	
+	font-size: 1.8em;
+	padding: 20px;
+	margin-top: -5px;
+	font-family: HNLC, Arial;
+}
+
+.highlights .group-body-holder h2 {
+
+    font-size: 1.8em !important;
+    line-height: 2em !important;
+    width: 100% !important;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-image: url(images/title-blue-underline.gif);
+    
+}
+
+.highlights .group-holder{
+	padding-top: 26% !important;
+}
+
+.hilight .field-name-field-value{
+	font-size: 5em !important;
+}
+
+.hilight .field-name-title-field{
+	font-size: 2em !important;
+}
+
+.group-slide-text .field-name-title-field {
+    font-size: 0.8em;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+	
+/*.highlights .field-name-title-field{
+	font-family: HNMC, Arial;
+	font-size: 0.95em !important;
+	line-height: 1em !important;
+	padding-top: 8px !important;
+}
+
+.highlights .group-body-holder h2 {
+
+    font-size: 0.94em !important;
+    line-height: 1.2em !important;
+    width: 100% !important;
+    
+}
+
+
+
+.highlights .group-body-holder h4 {
+    font-size: 1em !important;
+    line-height: 1em;
+    font-family: HNMC, Arial;
+    
+}*/
+
+.highlights .group-body-holder h4 {
+	
+	font-size: 1.6em;
+}
+	
+}
+
+@media screen and (max-width: 300px) {}
+
+/* @end */
+
+
+@media screen and (max-width: 1200px),only screen and (max-device-width: 1200px) {
+.hilight li{
+	font-size: 0.9em;
+}
+	
+}
+
+@media screen and (max-width: 1145px),only screen and (max-device-width: 1145px) {
+	
+nav a,input,.page-sub-menu label,.search-by .label,.desktop-site .block-menu .menu a{
+	font-size: 0.95em !important;	
+}
+
+/*body{
+	font-size: 0.8em;
+}*/
+	
+}
+
+@media screen and (max-width: 1115px),only screen and (max-device-width: 1115px) {
+.hilight li{
+	font-size: 0.7em;
+}
+	
+}
+
+@media screen and (max-width: 940px),only screen and (max-device-width: 940px) {
+	
+nav a,input,.page-sub-menu label,.desktop-site .block-menu .menu a{
+	font-size: 0.83em !important;	
+}
+
+#site-slogan{
+	font-size: 1.3em;
+}
+
+/*body{
+	font-size: 0.7em;
+}*/
+	
+}
+
+@media screen and (max-width: 900px),only screen and (max-device-width: 900px) {
+.hilight li h3{
+	font-size: 2.2em !important;
+}
+	
+}
+
+@media screen and (max-width: 800px),only screen and (max-device-width: 800px) {
+.highlights li .node .group-holder {
+
+}
+
+.highlights li.views-row-1 .group-holder,.highlights li.views-row-8 .group-holder{
+
+}
+	
+}
+
+
+
+
+@media screen and (max-width: 515px),only screen and (max-device-width: 515px) {
+	
+table{
+	font-size: 0.75em;
+}
+}
+
+@media screen and (max-width: 380px),only screen and (max-device-width: 380px) {
+	
+table{
+	font-size: 0.65em;
+}
+}
+
+
+

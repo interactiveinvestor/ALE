@@ -1,0 +1,21 @@
+<?php
+	
+	$query = new EntityFieldQuery();
+	$query
+	  ->entityCondition('entity_type', 'node', '=')
+	  ->propertyCondition('status', 1, '=')
+	  ->propertyCondition('type', array('events','news'))
+	  ->fieldCondition('field_news_events_category', 'tid', 17)
+	  ->propertyOrderBy('created', 'DESC')
+	  ->range(0,10);
+	;
+	$result = $query->execute();
+		
+	$output='<ul>';
+	foreach ($result['node'] as $key => $n) {		
+		 $node=node_load($n->nid);
+		$alias=strtolower(str_replace(' ','-',$node->title));		
+		$output.="<li><a href='/news-events/$alias'>$node->title</a></li>";	
+	}
+	$output.='<ul>';
+	echo $output;

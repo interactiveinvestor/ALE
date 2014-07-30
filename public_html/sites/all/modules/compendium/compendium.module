@@ -1,0 +1,440 @@
+<?php
+
+define('ds',DIRECTORY_SEPARATOR);
+
+function compendium_init(){
+	//unset($_SESSION['compendium-covers']);
+	if(!isset($_SESSION['compendium-covers'])){
+		$_SESSION['compendium-covers']=array(
+			'front-cover'=>array(
+				'display'=>1,
+				'title'=>t('Compendium front cover'),
+				'weight'=>0
+			),
+			'back-cover'=>array(
+				'display'=>1,
+				'title'=>t('Compendium back cover'),
+				'weight'=>10000
+			)
+			
+		);
+	}
+	//unset($_SESSION['compendium-state-pages']);
+	if(!isset($_SESSION['compendium-state-pages'])){
+		$_SESSION['compendium-state-pages']=array();
+		$query="SELECT nid,title FROM node WHERE type='property_information' AND status = 1";
+		$results=db_query($query)->fetchAll();
+		
+		foreach ($results as $key => $result) {
+			if($result->title=='Property Information') continue;
+			$_SESSION['compendium-state-pages'][]=array(
+				'nid'=>$result->nid,
+				'title'=>$result->title,
+				'display'=>1
+			);
+		}		
+	}
+		
+	$paths=explode('/',$_GET['q']);	
+
+	if(array_pop($paths)=='add-to-compendium'){			
+		$node_path = explode('/', drupal_get_normal_path(join('/',$paths)));
+		$node=$node_path[1];	
+		$added=false;		
+		$maxWeight=0;
+		if(isset($_SESSION['compendium'])){
+			foreach ($_SESSION['compendium'] as $key => $page) {
+				if($page['nid']==$node){$added=true;} 				
+				$maxWeight=$page['weight'];
+			}
+		}
+		if(!$added){
+			$results=current(db_query("SELECT n.title,n.type,city.field_city_tid FROM node as n INNER JOIN field_data_field_city as city on n.nid=city.entity_id  WHERE n.nid={$node} ")->fetchAll());
+			
+			if($results->type=='property_information'){
+				$results->title=$results->title.' state page';
+			}		
+			$state_query="SELECT data.name FROM taxonomy_term_hierarchy as h INNER JOIN taxonomy_term_data as data on h.parent=data.tid WHERE h.tid=$results->field_city_tid";
+			$state=current(db_query($state_query)->fetch());		
+			$_SESSION['compendium'][]=array(
+				'nid'=>$node,
+				'title'=>$results->title,
+				'weight'=>$maxWeight+1,
+				'display'=>1,
+				'state'=>$state			
+			);
+			drupal_set_message(t('This page was successfully added to your Compendium.'), 'status');
+		}else{
+			
+		}
+		header('Location: /'.join('/',$paths));
+		exit();
+	}
+	
+}
+
+function compendium_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['pdf_view'] = array(
+    'label' => t('PDF View'),
+    'custom settings' => TRUE,
+  );
+}
+
+function compendium_menu() {
+	$items = array();
+	$items['my-compendium'] = array(
+	'title'=>'My Compendium',
+	'page callback'=>'compendium_view',
+	'access arguments' => array('access content')
+	);	
+	$items['my-compendium/email'] = array(
+	'title'=>'Email my Compendium',
+	'page callback'=>'compendium_email',
+	'access arguments' => array('access content')
+	);
+	
+	$items['compile-master-compendium'] = array(
+	'title'=>'Compile Master',
+	'page callback'=>'compendium_compile_master',
+	'access arguments' => array('create master compendium'),
+	 'type' => MENU_NORMAL_ITEM, //Will appear in Navigation menu.
+	);
+	
+	// $items['pdf-footer'] = array(
+	// 'title'=>'PDF footer',
+	// 'page callback'=>'compendium_footer',
+	// 'access arguments' => array('access content')
+	// );
+	
+	return $items;
+}
+
+// function compendium_block_info() {
+//   $blocks = array();
+//   $blocks['compendium_menu'] = array(
+//     'info' => t('Compendium Menu'),
+//   );
+//  
+//   return $blocks;$compen
+
+// }
+// 
+// function my_block_view() {
+//   $block = array();
+//  
+//   // Block output in HTML with div wrapper
+//   $block = array(
+//     'message' => array(
+//       '#type' => 'markup',
+//       '#markup' => $text,
+//       '#suffix' => '</div>',
+//     ),
+//   );
+//  
+//   return $block;
+// }
+// 
+// function custom_block_block_configure($delta='') {
+//   $form = array();
+//  
+//   switch($delta) {
+//     case 'compendium_menu' :
+//  
+//       break;
+//   }
+//   return $form;
+// }
+
+// function compendium_footer(){
+// 	$compendiumPath=getcwd().ds.drupal_get_path('module','compendium').'/';	
+// 	
+// 	$note=current(taxonomy_get_term_by_name('Compendium PDF Footnote'))->description;
+// 	global $base_url;
+// 	$template=new __Template($compendiumPath.'pdf-footer.tpl.php',array('note'=>$note,'base_url'=>$base_url));
+// 	return array('#markup' => $template->html);
+// }
+
+function compendium_email(){
+	
+	//return array('#markup' => 'blag');
+}
+
+function compendium_permission() {
+  return array(
+    'create master compendium' => array(
+      'title' => t('Compile master compendium'),
+    )
+  );
+}
+
+
+function compendium_view(){
+	
+	$ua = strtolower($_SERVER['HTTP_USER_AGENT']);
+	if(stripos($ua,'android') !== false) { // && stripos($ua,'mobile') !== false) {
+		drupal_set_message(getTermDescription('Android Download Warning','status'));
+	}
+	
+	
+	$compendiumPath=getcwd().ds.drupal_get_path('module','compendium').'/';	
+	if(!isset($_SESSION['compendium'])) $_compendium= array();
+	else $_compendium=$_SESSION['compendium'];	
+	
+	_Array::sort_by_column($_compendium,'title', $dir = SORT_ASC);
+	$compendium=array();
+	$compendium['front-cover']=$_SESSION['compendium-covers']['front-cover'];
+	$compendium['highlights']=array('title'=>'Highlights','display'=>1);
+	_Array::sort_by_column($_SESSION['compendium-state-pages'],'title', $dir = SORT_ASC);
+	foreach ($_SESSION['compendium-state-pages'] as $key => $state) {
+		$_state=$state;
+		$_state['weight']=count($compendium);
+		$_state['title'].=' state page';
+		$compendium[]=$_state;
+		foreach ($_compendium as $key => &$page) {			
+			if($page['state']==$state['title']){
+				$page['weight']=count($compendium);
+				$compendium[]=$page;
+			}
+		}	
+	}
+	
+	$compendium['back-cover']=$_SESSION['compendium-covers']['back-cover'];
+
+
+	if(isset($_POST['create-compendium'])){	
+		$pdf=compendium_merge_pdf($compendium,$compendiumPath);		
+		$filename=drupal_realpath($pdf);
+		$mime = 'application/pdf'; 
+		header('Pragma: public'); 	// required
+		header('Expires: 0');		// no cache
+		header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+		header('Last-Modified: '.gmdate ('D, d M Y H:i:s', filemtime ($filename)).' GMT');
+		header('Cache-Control: private',false);
+		header('Content-Type: '.$mime);
+		header('Content-Disposition: attachment; filename="ALE - My Property Compendium.pdf"');
+		header('Content-Transfer-Encoding: binary');
+		header('Content-Length: '.filesize($filename));	// provide file size
+		header('Connection: close');
+		readfile($filename);		// push it out
+		//unlink($filename);
+		exit();
+		
+	}
+	if(isset($_POST['email-compendium'])){
+		$_SESSION['forward']='compendium';
+		$_SESSION['posted-compendiums'][]='1';
+		$destPath=getcwd().ds.'sites'.ds.'default'.ds.'files'.ds.'user-compendiums'.ds;
+		$files=glob($destPath.'*.pdf');
+		$filename='My Compendium '.count($files);
+		compendium_merge_pdf($compendium,$compendiumPath,$destPath,$filename);
+		global $base_url;
+		$node->type = 'my_compendium';
+	  node_object_prepare($node);
+		$node->title    = count($files);
+		$node->language = LANGUAGE_NONE;		
+		$path='my-property-compendium-'.count($files);
+		$node->path = array('alias' => $path);
+	  node_save($node);		
+		//$url='/my-compendium/'.$filename.'.pdf';
+		header('Location: /forward?path='.$path);
+		exit();
+	}
+	
+	$note=taxonomy_term_load(38);
+	$note=$note->description;
+	$template=new __Template($compendiumPath.'my-compendium.tpl.php',array('compendium'=>$compendium,'note'=>$note));
+	return array('#markup' => $template->html);
+}
+
+function compendium_merge_pdf($compendium,$compendiumPath,$destPath=null,$filename=null,$override=false){
+	$_compendium=$compendium;
+	if(!$override){
+		$_compendium=array();
+		foreach ($compendium as $key => $page) {
+			if(isset($_POST['page-'.$key])){
+				$_compendium[$key]=$page;
+			}
+		}
+	}
+	
+
+	$pdfPath=getcwd().ds.'sites'.ds.'default'.ds.'files'.ds.'compendium'.ds;
+	if($destPath==null) $destPath=$pdfPath;
+	
+	require_once($compendiumPath."tcpdf/tcpdf.php");
+	include($compendiumPath."fpdi/fpdi.php");
+	
+		class concat_pdf extends FPDI {
+		     var $files = array();
+		     function setFiles($files) {
+		          $this->files = $files;
+		     }
+		     function concat() {
+		          foreach($this->files AS $file) {
+		               $pagecount = $this->setSourceFile($file);
+		               for ($i = 1; $i <= $pagecount; $i++) {
+		                    $tplidx = $this->ImportPage($i);
+		                    $s = $this->getTemplatesize($tplidx);
+		                    $this->AddPage('P', array($s['w'], $s['h']));
+												//$this->setQuality(10);
+		                    $this->useTemplate($tplidx);
+								$this->setPrintHeader(false);
+								$this->setPrintFooter(false);
+												
+		               }
+		          }
+		     }
+		}
+	
+		$pdf = new concat_pdf();
+		$files=array();
+
+	foreach ($_compendium as $key => $page) {
+		if(isset($page['nid']) && is_file($pdfPath.$page['nid'].'.pdf')){
+			$files[]=$pdfPath.$page['nid'].'.pdf';
+		}      
+		elseif(isset($page['title']) && is_file($pdfPath.strtolower($page['title']).'.pdf') ){
+			$files[]=$pdfPath.strtolower($page['title']).'.pdf';
+		}  
+		elseif($key=='front-cover'){
+			$files[]=$pdfPath.'front-cover.pdf';
+		}
+		elseif($key=='back-cover'){
+			$files[]=$pdfPath.'back-cover.pdf';
+		}
+	
+		
+	}
+	
+	$pdf->setFiles($files);	
+	$pdf->concat();
+	if($filename==null) $destPath.$filename = uniqid(rand(), true) . '.pdf';
+	else $filename.='.pdf';
+	
+	$pdf->Output($destPath.$filename, "F");
+	
+	return $destPath.$filename;
+}
+
+function compendium_node_update($node){
+	$compendiumDir=getcwd().ds.'sites'.ds.'default'.ds.'files'.ds.'compendium'.ds;
+	$madeofcode=getcwd().base_path().libraries_get_path('madeofcode').ds;
+	//require_once($madeofcode.'classes'.ds.'WkHtmlToPdf.php');
+	global $base_url;
+	
+	if($_SERVER['HTTP_HOST']=='ale.local' || $_SERVER['HTTP_HOST']=='10.0.0.11'){
+		$base_command ='wkhtmltopdf';
+	}else{
+		$base_command ='/usr/local/bin/wkhtmltopdf.sh';
+	}
+	
+	if($node->type=='property' || $node->type=='property_information'){
+			copy($compendiumDir.'test-tmp.pdf',$compendiumDir.$node->nid.'.pdf');
+			$options = array('absolute' => TRUE);
+			$url = url('node/' . $node->nid, $options);	
+			$pages = $url.'?pdf-view=true';
+			$footer = $base_url.'/pdf-footer';
+			$output = $compendiumDir.$node->nid.'.pdf';
+			$command = array();
+			$command[]=$base_command;
+			$command[] = escapeshellarg($pages);
+			$command[] = escapeshellarg($output);
+			$command[]='&> /dev/null &';
+			
+			try {
+				exec(implode(' ', $command));
+			}
+			catch (Exception $e) {
+				file_put_contents($compendiumDir."/error.txt", $e->getMessage());
+			}
+	}
+	
+	if($node->type=='highlights'){	
+			copy($compendiumDir.'test-tmp.pdf',$compendiumDir.$node->nid.'.pdf');
+			$options = array('absolute' => TRUE);
+			$pages = $base_url.'/highlights?pdf-view=true';
+			$output = $compendiumDir.'highlights.pdf';
+			$command = array();
+			$command[]=$base_command;
+			$command[] = escapeshellarg($pages);
+			$command[] = escapeshellarg($output);
+			$command[]='&> /dev/null &';
+			exec(implode(' ', $command));
+	}
+	
+	
+	
+}
+
+function compendium_compile_master(){
+	$compendiumPath=getcwd().ds.drupal_get_path('module','compendium').'/';		
+	$compendium=array();
+	$compendium['front-cover']=$_SESSION['compendium-covers']['front-cover'];
+	$compendium['highlights']=array('title'=>'Highlights','display'=>1);
+	
+	_Array::sort_by_column($_SESSION['compendium-state-pages'],'title', $dir = SORT_ASC);
+	
+	$results=db_query("SELECT n.title,n.type,n.nid,city.field_city_tid FROM node as n INNER JOIN field_data_field_city as city on n.nid=city.entity_id")->fetchAll();	
+	$properties=array();	
+	$getProperties=true;
+	
+	if(isset($_GET['state']) && $_GET['state']=='overview') $getProperties=false;
+	
+		foreach ($results as $key => $node) {
+			$state_query="SELECT data.name FROM taxonomy_term_hierarchy as h INNER JOIN taxonomy_term_data as data on h.parent=data.tid WHERE h.tid=$node->field_city_tid";
+			$state=current(db_query($state_query)->fetch());			
+			$properties[]=array(
+				'nid'=>$node->nid,
+				'title'=>$node->title,
+				'display'=>1,
+				'state'=>$state			
+			);
+		}
+	_Array::sort_by_column($properties,'title', $dir = SORT_ASC);
+
+	foreach ($_SESSION['compendium-state-pages'] as $key => $state) {	
+		if(isset($_GET['state']) && $state['title']!==$_GET['state'] && $_GET['state']!='overview') continue;		
+		$_state=$state;
+		$_state['weight']=count($compendium);
+		$_state['title'].=' state page';
+		$compendium[]=$_state;		
+		if($getProperties){
+			foreach ($properties as $key => &$page) {			
+				if($page['state']==$state['title']){
+					$page['weight']=count($compendium);
+					$compendium[]=$page;
+				}
+			}
+		}
+	}	
+	
+	$compendium['back-cover']=$_SESSION['compendium-covers']['back-cover'];
+	
+	$title="ALE - Master Compendium";
+	if(isset($_GET['state'])){
+		$title="ALE - ".$_GET['state']." State Compendium";
+	}	
+	if(isset($_GET['state']) && $_GET['state']=='overview'){
+		$title="ALE - State Overview Compendium";
+	}
+	
+	$pdf=compendium_merge_pdf($compendium,$compendiumPath,null,$title,true);
+	$filename=drupal_realpath($pdf);
+	$mime = 'application/pdf'; 
+	header('Pragma: public'); 	// required
+	header('Expires: 0');		// no cache
+	header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+	header('Last-Modified: '.gmdate ('D, d M Y H:i:s', filemtime ($filename)).' GMT');
+	header('Cache-Control: private',false);
+	header('Content-Type: '.$mime);
+	header('Content-Disposition: attachment; filename="'.$title.'.pdf"');
+	header('Content-Transfer-Encoding: binary');
+	header('Content-Length: '.filesize($filename));	// provide file size
+	header('Connection: close');
+	readfile($filename);		// push it out
+	//unlink($filename);
+	exit();
+	
+	return array('#markup' => '');
+
+}

@@ -1,0 +1,2094 @@
+<Places>
+				<Placemark>
+					<name>Blacktown Inn Hotel</name>
+					<LookAt>
+						<longitude>150.9192745128471</longitude>
+						<latitude>-33.7783400170156</latitude>
+						<altitude>0</altitude>
+						<heading>-99.62519245787934</heading>
+						<tilt>8.470744007561304</tilt>
+						<range>218.7717768061014</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap16</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Blacktown Inn Hotel</SimpleData>
+							<SimpleData name="Address">80 Blacktown Road, Blacktown</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>150.9197235174248,-33.77794507949431,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Brown Jug Hotel</name>
+					<LookAt>
+						<longitude>150.9395942112083</longitude>
+						<latitude>-33.86425318770494</latitude>
+						<altitude>0</altitude>
+						<heading>-82.01137525114044</heading>
+						<tilt>0</tilt>
+						<range>340.2548467123465</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap3</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Brown Jug Hotel</SimpleData>
+							<SimpleData name="Address">47 Stanbrook Parade, Fairfield</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>150.9396245310058,-33.86432451497269,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Colyton Hotel</name>
+					<LookAt>
+						<longitude>150.8009966976273</longitude>
+						<latitude>-33.77760014476868</latitude>
+						<altitude>0</altitude>
+						<heading>-74.73952595814956</heading>
+						<tilt>10.60948190899927</tilt>
+						<range>289.2948260614909</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap9</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Colyton Hotel</SimpleData>
+							<SimpleData name="Address">12 Great Western Highway, St Mary&apos;s</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>150.8015385625334,-33.7773554508639,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Crows Nest Hotel</name>
+					<styleUrl>#pointStyleMap6</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Crows Nest Hotel</SimpleData>
+							<SimpleData name="Address">1-3 Willoughby Road, Crows Nest</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>151.2010784908104,-33.82755371723428,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Melton Hotel</name>
+					<LookAt>
+						<longitude>151.0409144253669</longitude>
+						<latitude>-33.8436428416135</latitude>
+						<altitude>0</altitude>
+						<heading>32.09831981360316</heading>
+						<tilt>0</tilt>
+						<range>478.1901290147599</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap12</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Melton Hotel</SimpleData>
+							<SimpleData name="Address">163 Parramatta Road, Auburn</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>151.0398233536402,-33.84305392166022,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Narrabeen Sands Hotel</name>
+					<LookAt>
+						<longitude>151.2992024512002</longitude>
+						<latitude>-33.71829082374227</latitude>
+						<altitude>0</altitude>
+						<heading>-101.7934951780768</heading>
+						<tilt>15.84374529215346</tilt>
+						<range>333.2375057676574</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap11</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Narrabeen Sands Hotel</SimpleData>
+							<SimpleData name="Address">Pittwater Road, Narrabeen</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>151.2981361626421,-33.71840438921534,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>New Brighton Hotel</name>
+					<LookAt>
+						<longitude>151.2879884264173</longitude>
+						<latitude>-33.7969968211446</latitude>
+						<altitude>0</altitude>
+						<heading>-42.82037403658607</heading>
+						<tilt>0</tilt>
+						<range>337.6843553905633</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">New Brighton Hotel</SimpleData>
+							<SimpleData name="Address">71 The Corso, Manly</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>151.287226,-33.797303,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pioneer Tavern</name>
+					<LookAt>
+						<longitude>150.7111017813862</longitude>
+						<latitude>-33.77664186821925</latitude>
+						<altitude>0</altitude>
+						<heading>-81.74583089554923</heading>
+						<tilt>13.26218933149459</tilt>
+						<range>278.0111721502092</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap8</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Pioneer Tavern</SimpleData>
+							<SimpleData name="Address">Cnr Maxwell St &amp; The Northern Rd, Penrith</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>150.7108602343553,-33.77662779949601,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pritchards Hotel</name>
+					<LookAt>
+						<longitude>150.8960662332292</longitude>
+						<latitude>-33.90300160373936</latitude>
+						<altitude>0</altitude>
+						<heading>68.29164568299473</heading>
+						<tilt>0</tilt>
+						<range>390.0460777794876</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Pritchards Hotel</SimpleData>
+							<SimpleData name="Address">360 Elizabeth Drive, MT Pritchard</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>150.895765,-33.90249800000002,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Smithfield Hotel</name>
+					<LookAt>
+						<longitude>150.9408253145722</longitude>
+						<latitude>-33.85325429694922</latitude>
+						<altitude>0</altitude>
+						<heading>-41.76903023236831</heading>
+						<tilt>0</tilt>
+						<range>265.8786403833797</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap7</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Smithfield Hotel</SimpleData>
+							<SimpleData name="Address">671 The Horsley Drive, Smithfield</SimpleData>
+							<SimpleData name="State">NSW</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>150.9405909455225,-33.85323938485026,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Albany Creek Tavern</name>
+					<LookAt>
+						<longitude>152.9674296758683</longitude>
+						<latitude>-27.34635114844322</latitude>
+						<altitude>0</altitude>
+						<heading>0.001034124050668856</heading>
+						<tilt>0</tilt>
+						<range>594.7071098058974</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151565</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Albany Creek Tavern</SimpleData>
+							<SimpleData name="Address">Cnr Old Northern &amp; Albany Creek Rds, Albany Creek</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>152.966112882237,-27.34575249403714,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Alderley Arms Hotel</name>
+					<LookAt>
+						<longitude>153.0010006513403</longitude>
+						<latitude>-27.42541006114967</latitude>
+						<altitude>0</altitude>
+						<heading>-119.9910199079266</heading>
+						<tilt>0</tilt>
+						<range>477.7768998827952</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151564</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Alderley Arms Hotel</SimpleData>
+							<SimpleData name="Address">2 Samford Road, Alderley</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0004237184269,-27.42559183421276,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Anglers Arms Hotel</name>
+					<LookAt>
+						<longitude>153.414957012294</longitude>
+						<latitude>-27.97347402452786</latitude>
+						<altitude>0</altitude>
+						<heading>-170.4660890786286</heading>
+						<tilt>17.8368103804156</tilt>
+						<range>240.7853974720855</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151567</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Anglers Arms Hotel</SimpleData>
+							<SimpleData name="Address">50 Queens Street Southport</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.4150177630371,-27.97344944173611,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Balaclava Hotel</name>
+					<LookAt>
+						<longitude>145.7445771714101</longitude>
+						<latitude>-16.94005172886262</latitude>
+						<altitude>0</altitude>
+						<heading>-32.80409239195764</heading>
+						<tilt>0</tilt>
+						<range>367.8831194756417</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151563</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Balaclava Hotel</SimpleData>
+							<SimpleData name="Address">423 Mulgrove Road, Cairns (Earlville)</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.7439261169735,-16.94014114021547,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Breakfast Creek Hotel</name>
+					<LookAt>
+						<longitude>153.0459545630824</longitude>
+						<latitude>-27.44077149155345</latitude>
+						<altitude>0</altitude>
+						<heading>3.505001538648719e-005</heading>
+						<tilt>0</tilt>
+						<range>527.2369746905563</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap5</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Breakfast Creek Hotel</SimpleData>
+							<SimpleData name="Address">2 Kingsford Smith Drive, Breakfast Creek</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0456631734819,-27.44071143782726,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Burleigh Heads Hotel</name>
+					<LookAt>
+						<longitude>153.4522533791175</longitude>
+						<latitude>-28.08808672454239</latitude>
+						<altitude>0</altitude>
+						<heading>-102.3803381240522</heading>
+						<tilt>14.33791906985554</tilt>
+						<range>351.9560111245582</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151561</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Burleigh Heads Hotel</SimpleData>
+							<SimpleData name="Address">2 The Esplande, Burleigh Heads</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.4515047972128,-28.08799250105611,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Camp Hill Hotel</name>
+					<LookAt>
+						<longitude>153.082835013484</longitude>
+						<latitude>-27.49189107229664</latitude>
+						<altitude>0</altitude>
+						<heading>97.78332603398962</heading>
+						<tilt>3.095442732855624</tilt>
+						<range>394.027882305587</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151568</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Camp Hill Hotel</SimpleData>
+							<SimpleData name="Address">724 Old Cleveland Road, Camp Hill</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0830346732779,-27.49247054628019,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Chardons Corner Hotel</name>
+					<LookAt>
+						<longitude>153.0293922586332</longitude>
+						<latitude>-27.51901014924991</latitude>
+						<altitude>0</altitude>
+						<heading>-49.79554422568584</heading>
+						<tilt>0.5908511679278635</tilt>
+						<range>329.4441707540872</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151560</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Chardons Corner Hotel</SimpleData>
+							<SimpleData name="Address">688 Ipswich Road, Annerly</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0293268111242,-27.51866564141787,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dalrymple Hotel</name>
+					<LookAt>
+						<longitude>146.7670129756778</longitude>
+						<latitude>-19.2742964832312</latitude>
+						<altitude>0</altitude>
+						<heading>-176.524323077122</heading>
+						<tilt>11.2786972080753</tilt>
+						<range>565.7734880749122</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15156</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Dalrymple Hotel</SimpleData>
+							<SimpleData name="Address">310 Bayswater Road, Garbutt</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>146.7658056310019,-19.2744055595022,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Edge Hill Tavern</name>
+					<LookAt>
+						<longitude>145.7405115007912</longitude>
+						<latitude>-16.91388193112167</latitude>
+						<altitude>0</altitude>
+						<heading>96.2715932729157</heading>
+						<tilt>11.64955195407374</tilt>
+						<range>468.5410869599457</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap0</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Edge Hill Tavern</SimpleData>
+							<SimpleData name="Address">145-147 Pease Street, Manoora, Cairns</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.7403344126209,-16.91354677285564,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Edinburgh Castle Hotel</name>
+					<Camera>
+						<longitude>153.0325488392872</longitude>
+						<latitude>-27.4015412400484</latitude>
+						<altitude>362.6002287027307</altitude>
+						<heading>-132.7015077928787</heading>
+						<tilt>1.343156092518558</tilt>
+						<roll>-37.68034781541336</roll>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</Camera>
+					<styleUrl>#pointStyleMap151562</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Edinburgh Castle Hotel</SimpleData>
+							<SimpleData name="Address">421 Gympie Road, Kedron</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0319927233549,-27.40159695108962,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Four Mile Creek</name>
+					<LookAt>
+						<longitude>152.9892992500186</longitude>
+						<latitude>-27.30757238102991</latitude>
+						<altitude>0</altitude>
+						<heading>73.99968371130994</heading>
+						<tilt>0</tilt>
+						<range>369.6622272798543</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Four Mile Creek</SimpleData>
+							<SimpleData name="Address">260 Gympie Road, Strathpine</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>152.989591,-27.307591,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Hamilton Hotel</name>
+					<LookAt>
+						<longitude>153.0634627527907</longitude>
+						<latitude>-27.43839204190796</latitude>
+						<altitude>0</altitude>
+						<heading>-173.365522801268</heading>
+						<tilt>15.23147965179513</tilt>
+						<range>353.5029923234485</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151511</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Hamilton Hotel</SimpleData>
+							<SimpleData name="Address">442 Kingsford Smith Drive, Hamilton</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.063898,-27.43894499999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Holland Park Hotel</name>
+					<LookAt>
+						<longitude>153.0604198949528</longitude>
+						<latitude>-27.51938186951056</latitude>
+						<altitude>0</altitude>
+						<heading>43.80342063644459</heading>
+						<tilt>0</tilt>
+						<range>249.3155207488577</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Holland Park Hotel</SimpleData>
+							<SimpleData name="Address">945 Logan Road, Holland Park</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.060484,-27.519183,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Kedron Park Hotel</name>
+					<LookAt>
+						<longitude>153.0373973318987</longitude>
+						<latitude>-27.41568638815343</latitude>
+						<altitude>0</altitude>
+						<heading>-84.19070083369475</heading>
+						<tilt>5.595766353549891</tilt>
+						<range>290.446167506928</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515611</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Kedron Park Hotel</SimpleData>
+							<SimpleData name="Address">693 Lutwyche Road, Kedron Park</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0370427618877,-27.41577468759042,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Kirwan Tavern</name>
+					<LookAt>
+						<longitude>146.7344965030715</longitude>
+						<latitude>-19.30324665466261</latitude>
+						<altitude>0</altitude>
+						<heading>-73.81726830045268</heading>
+						<tilt>0</tilt>
+						<range>580.195607029861</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151569</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Kirwan Tavern</SimpleData>
+							<SimpleData name="Address">154 Thurwingowa Drive, Townsville</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>146.734048431104,-19.30276649229817,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Lawnton Tavern</name>
+					<LookAt>
+						<TimeStamp><when>2010-03-09</when>
+</TimeStamp>
+						<ViewerOptions>
+							<option name="historicalimagery"></option>
+							<option enabled="0" name="sunlight"></option>
+							<option enabled="0" name="streetview"></option>
+						</ViewerOptions>
+						<longitude>152.9816866141302</longitude>
+						<latitude>-27.28171481000838</latitude>
+						<altitude>0</altitude>
+						<heading>72.98702950532478</heading>
+						<tilt>0</tilt>
+						<range>360.6198956401209</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515610</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Lawnton Tavern</SimpleData>
+							<SimpleData name="Address">820 Gympie Road, Lawnton</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>152.982125154039,-27.28170064331781,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Miami Hotel</name>
+					<LookAt>
+						<TimeStamp><when>2010-03-09</when>
+</TimeStamp>
+						<ViewerOptions>
+							<option name="historicalimagery"></option>
+							<option enabled="0" name="sunlight"></option>
+							<option enabled="0" name="streetview"></option>
+						</ViewerOptions>
+						<longitude>153.4456495608258</longitude>
+						<latitude>-28.07287121720311</latitude>
+						<altitude>0</altitude>
+						<heading>72.73173166905288</heading>
+						<tilt>16.35754002358242</tilt>
+						<range>600.1953698667535</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515667</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Miami Hotel</SimpleData>
+							<SimpleData name="Address">2043-2047 Gold Coast Highway, Miami</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.444949593379,-28.07278728314536,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mount Gravatt Hotel</name>
+					<LookAt>
+						<longitude>153.0754390710629</longitude>
+						<latitude>-27.53512874100027</latitude>
+						<altitude>0</altitude>
+						<heading>51.25140332436565</heading>
+						<tilt>7.589154899789386</tilt>
+						<range>409.4450419978873</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515661</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Mount Gravatt Hotel</SimpleData>
+							<SimpleData name="Address">1315 Logan Road, Mt Gravatt</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0753104804057,-27.53454055520805,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mount Pleasant Hotel</name>
+					<LookAt>
+						<longitude>149.1642526843251</longitude>
+						<latitude>-21.12166046461189</latitude>
+						<altitude>0</altitude>
+						<heading>0.005715992763742291</heading>
+						<tilt>0</tilt>
+						<range>440.7768965774309</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515662</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Mount Pleasant Hotel</SimpleData>
+							<SimpleData name="Address">Malcomson Street, North Mackay</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>149.1638664469629,-21.12170246387781,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Noosa Reef Hotel</name>
+					<LookAt>
+						<longitude>153.0895231569777</longitude>
+						<latitude>-26.39202545919957</latitude>
+						<altitude>0</altitude>
+						<heading>5.962464512499844</heading>
+						<tilt>14.45557323517206</tilt>
+						<range>338.8213733258771</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515666</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Noosa Reef Hotel</SimpleData>
+							<SimpleData name="Address">Noosa Drive, Noosa Heads</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0901138406904,-26.39252088773975,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Nudgee Beach Hotel</name>
+					<LookAt>
+						<longitude>153.09131214441</longitude>
+						<latitude>-27.38209064439886</latitude>
+						<altitude>0</altitude>
+						<heading>125.596504986005</heading>
+						<tilt>0</tilt>
+						<range>602.8441475646162</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515665</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Nudgee Beach Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Approach and Nudgee Roads, Nudgee</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0910015244388,-27.38154996866447,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Palm Beach Hotel</name>
+					<LookAt>
+						<TimeStamp><when>2008-06-26</when>
+</TimeStamp>
+						<ViewerOptions>
+							<option name="historicalimagery"></option>
+							<option enabled="0" name="sunlight"></option>
+							<option enabled="0" name="streetview"></option>
+						</ViewerOptions>
+						<longitude>153.4728850350365</longitude>
+						<latitude>-28.12149370779376</latitude>
+						<altitude>0</altitude>
+						<heading>62.20577621523709</heading>
+						<tilt>45.54681016713894</tilt>
+						<range>331.6843614383676</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151566</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Palm Beach Hotel</SimpleData>
+							<SimpleData name="Address">Corner of 1118 Gold Coast Hwy &amp; 5th Ave, Palm Beach</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.4725632693868,-28.12161980508424,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pelican Waters Hotel</name>
+					<LookAt>
+						<longitude>153.1092828432931</longitude>
+						<latitude>-26.83345403985695</latitude>
+						<altitude>0</altitude>
+						<heading>121.1747825559741</heading>
+						<tilt>5.468515898325345</tilt>
+						<range>444.661949746202</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515660</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Pelican Waters Hotel</SimpleData>
+							<SimpleData name="Address">Pelican Waters Boulevard, Pelican Waters</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.1096227959562,-26.83323496420215,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Prince of Wales</name>
+					<LookAt>
+						<longitude>153.060098618103</longitude>
+						<latitude>-27.40498885897611</latitude>
+						<altitude>0</altitude>
+						<heading>93.14896217965855</heading>
+						<tilt>0</tilt>
+						<range>620.8686049503899</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515663</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Prince of Wales</SimpleData>
+							<SimpleData name="Address">1154 Sandgate Road, Nundah</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0598885282319,-27.40361247843789,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Racehorse Hotel</name>
+					<LookAt>
+						<TimeStamp><when>2011-07-05</when>
+</TimeStamp>
+						<ViewerOptions>
+							<option name="historicalimagery"></option>
+							<option enabled="0" name="sunlight"></option>
+							<option enabled="0" name="streetview"></option>
+						</ViewerOptions>
+						<longitude>152.7999392966298</longitude>
+						<latitude>-27.61327237845519</latitude>
+						<altitude>0</altitude>
+						<heading>-16.88832001897402</heading>
+						<tilt>0</tilt>
+						<range>533.7716372811084</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap4</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Racehorse Hotel</SimpleData>
+							<SimpleData name="Address">215 Brisbane Road, Booval</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>152.8003989206628,-27.61271641221255,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Redland Bay Hotel</name>
+					<Camera>
+						<longitude>153.3054631730755</longitude>
+						<latitude>-27.61229110714533</latitude>
+						<altitude>300.7823372249981</altitude>
+						<heading>-131.637627286467</heading>
+						<tilt>21.35513551162338</tilt>
+						<roll>3.473328543440746</roll>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</Camera>
+					<styleUrl>#pointStyleMap</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Redland Bay Hotel</SimpleData>
+							<SimpleData name="Address">The Esplanade, Redland Bay</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.3047382280959,-27.61269747734993,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Royal Exchange Hotel</name>
+					<LookAt>
+						<longitude>152.9922379252375</longitude>
+						<latitude>-27.48636707910917</latitude>
+						<altitude>0</altitude>
+						<heading>102.5883717991939</heading>
+						<tilt>11.25361405603918</tilt>
+						<range>304.3722027079969</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap13</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Royal Exchange Hotel</SimpleData>
+							<SimpleData name="Address">10 High Street, Toowong</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>152.9925523306327,-27.486408852478,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Springwood Tavern</name>
+					<LookAt>
+						<longitude>153.1241471988307</longitude>
+						<latitude>-27.61059674426326</latitude>
+						<altitude>0</altitude>
+						<heading>-107.4174013443249</heading>
+						<tilt>5.969807274051594</tilt>
+						<range>361.0663892177875</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Springwood Tavern</SimpleData>
+							<SimpleData name="Address">43 Springwood Road, Springwood</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.1238652479024,-27.61086882267409,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Stones Corner Tavern</name>
+					<LookAt>
+						<longitude>153.0452264618558</longitude>
+						<latitude>-27.49907808483815</latitude>
+						<altitude>0</altitude>
+						<heading>-9.582403683996363</heading>
+						<tilt>32.08417616171713</tilt>
+						<range>295.8190897465433</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap10</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Stones Corner Tavern</SimpleData>
+							<SimpleData name="Address">346 Logan Road, Stones Corner</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>153.0452118333403,-27.49895438632758,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Vale Hotel</name>
+					<LookAt>
+						<longitude>146.7724405482107</longitude>
+						<latitude>-19.29661326588349</latitude>
+						<altitude>0</altitude>
+						<heading>93.31820626128888</heading>
+						<tilt>11.51299683278482</tilt>
+						<range>518.5854744112106</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap2</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Vale Hotel</SimpleData>
+							<SimpleData name="Address">222 Ross River Road, (Aikenvale) Townsville</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>146.7722522861181,-19.29701194279676,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Wilsonton Hotel</name>
+					<LookAt>
+						<longitude>151.9241831983165</longitude>
+						<latitude>-27.54210350520758</latitude>
+						<altitude>0</altitude>
+						<heading>-82.85428317484835</heading>
+						<tilt>0</tilt>
+						<range>450.3239743962822</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap14</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Wilsonton Hotel</SimpleData>
+							<SimpleData name="Address">40 Richmond Drive, Wilsonton Toowoomba</SimpleData>
+							<SimpleData name="State">QLD</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>151.924216129353,-27.54223146819255,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Aberfoyle Hub Tavern</name>
+					<LookAt>
+						<longitude>138.5913419938333</longitude>
+						<latitude>-35.07544655193721</latitude>
+						<altitude>0</altitude>
+						<heading>-38.78776201552509</heading>
+						<tilt>0.02650952958562533</tilt>
+						<range>365.4626104366282</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1511</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Aberfoyle Hub Tavern</SimpleData>
+							<SimpleData name="Address">The Hub Shopping Centre Taylors Road, Aberfoyle Park</SimpleData>
+							<SimpleData name="State">SA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>138.5913733350148,-35.07509377035229,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Eureka Hotel</name>
+					<LookAt>
+						<longitude>138.6414495849602</longitude>
+						<latitude>-34.7633412202946</latitude>
+						<altitude>0</altitude>
+						<heading>-179.1039485967458</heading>
+						<tilt>0</tilt>
+						<range>302.1120557069377</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1523</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Eureka Hotel</SimpleData>
+							<SimpleData name="Address">10 Park Terrace, Salisbury</SimpleData>
+							<SimpleData name="State">SA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>138.6415745690716,-34.76340092849812,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Exeter Hotel</name>
+					<LookAt>
+						<longitude>138.4909145872409</longitude>
+						<latitude>-34.84067623318253</latitude>
+						<altitude>0</altitude>
+						<heading>13.15483379359963</heading>
+						<tilt>0</tilt>
+						<range>291.7556389938452</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap152</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Exeter Hotel</SimpleData>
+							<SimpleData name="Address">152 Semaphore Road, Exeter</SimpleData>
+							<SimpleData name="State">SA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>138.4904233975633,-34.84045753642656,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Finsbury Hotel</name>
+					<LookAt>
+						<longitude>138.5475096075213</longitude>
+						<latitude>-34.86900177415237</latitude>
+						<altitude>0</altitude>
+						<heading>-93.77043151855469</heading>
+						<tilt>0</tilt>
+						<range>332.932104078449</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Finsbury Hotel</SimpleData>
+							<SimpleData name="Address">49 Hanson Road, Woodville North</SimpleData>
+							<SimpleData name="State">SA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>138.547508,-34.86900399999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gepps Cross Hotel</name>
+					<LookAt>
+						<longitude>138.5994721976397</longitude>
+						<latitude>-34.84933392524579</latitude>
+						<altitude>0</altitude>
+						<heading>-3.81424980797724</heading>
+						<tilt>0</tilt>
+						<range>688.0374562111134</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap153</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Gepps Cross Hotel</SimpleData>
+							<SimpleData name="Address">560 Main North Road, Blair Athol</SimpleData>
+							<SimpleData name="State">SA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>138.5991791997444,-34.8485013325049,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Hendon Hotel</name>
+					<LookAt>
+						<longitude>138.5120642761032</longitude>
+						<latitude>-34.87423065514369</latitude>
+						<altitude>0</altitude>
+						<heading>-92.03738447697963</heading>
+						<tilt>0</tilt>
+						<range>258.5871734256766</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Hendon Hotel</SimpleData>
+							<SimpleData name="Address">110 Tapleys Hill Road, Royal Park</SimpleData>
+							<SimpleData name="State">SA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>138.5119729000723,-34.87435593703707,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Stockade Tavern</name>
+					<LookAt>
+						<longitude>138.6430593283851</longitude>
+						<latitude>-34.76262321446046</latitude>
+						<altitude>0</altitude>
+						<heading>91.16396331787111</heading>
+						<tilt>0</tilt>
+						<range>440.3084530805463</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1516</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Stockade Tavern</SimpleData>
+							<SimpleData name="Address">2 Gawler Street, Salisbury</SimpleData>
+							<SimpleData name="State">SA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>138.6429603697233,-34.7624754186453,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ashley Hotel</name>
+					<LookAt>
+						<longitude>144.8649534013723</longitude>
+						<latitude>-37.78077070841572</latitude>
+						<altitude>0</altitude>
+						<heading>-170.5743038731008</heading>
+						<tilt>0</tilt>
+						<range>287.5805023710528</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Ashley Hotel</SimpleData>
+							<SimpleData name="Address">226 Ballarat Road, Braybrook</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>144.8651450203587,-37.78068524705193,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bayswater Hotel</name>
+					<LookAt>
+						<longitude>145.2693084572427</longitude>
+						<latitude>-37.84195822138165</latitude>
+						<altitude>0</altitude>
+						<heading>54.92193656227693</heading>
+						<tilt>12.93257322105539</tilt>
+						<range>561.9169242174785</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1522</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Bayswater Hotel</SimpleData>
+							<SimpleData name="Address">780 Mountain Highway, Bayswater</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.2689438291959,-37.84078036188361,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Berwick Inn</name>
+					<LookAt>
+						<longitude>145.3452493012937</longitude>
+						<latitude>-38.03059403825251</latitude>
+						<altitude>0</altitude>
+						<heading>140.4203937338542</heading>
+						<tilt>21.43655967885521</tilt>
+						<range>252.4272885608646</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap150</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Berwick Inn</SimpleData>
+							<SimpleData name="Address">1 High St, Berwick</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.3449343845795,-38.03059049349084,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Blackburn Hotel</name>
+					<LookAt>
+						<longitude>145.1523050486054</longitude>
+						<latitude>-37.81686447851737</latitude>
+						<altitude>0</altitude>
+						<heading>96.47363281249999</heading>
+						<tilt>0</tilt>
+						<range>349.3161468495385</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap157</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Blackburn Hotel</SimpleData>
+							<SimpleData name="Address">111 Whitehorse Road, Blackburn</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.1519991224334,-37.81688851106686,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Blue Bell Hotel</name>
+					<LookAt>
+						<TimeStamp><when>2004-11-10</when>
+</TimeStamp>
+						<ViewerOptions>
+							<option name="historicalimagery"></option>
+							<option enabled="0" name="sunlight"></option>
+							<option enabled="0" name="streetview"></option>
+						</ViewerOptions>
+						<longitude>143.8294981451008</longitude>
+						<latitude>-37.53990553757859</latitude>
+						<altitude>0</altitude>
+						<heading>-171.6422513464159</heading>
+						<tilt>6.05435981793077</tilt>
+						<range>208.2035505750514</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1510</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Blue Bell Hotel</SimpleData>
+							<SimpleData name="Address">Howitt Street, Wendouree</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>143.8296601097772,-37.53977257347845,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Boundary Hotel</name>
+					<LookAt>
+						<longitude>145.0582363826837</longitude>
+						<latitude>-37.92122343846505</latitude>
+						<altitude>0</altitude>
+						<heading>98.17412037956218</heading>
+						<tilt>10.11792970228471</tilt>
+						<range>240.543921392451</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Boundary Hotel</SimpleData>
+							<SimpleData name="Address">728-730 Centre Road, Betleigh East</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.058592,-37.92139,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Burvale Hotel</name>
+					<LookAt>
+						<longitude>145.1711821307747</longitude>
+						<latitude>-37.85363746157525</latitude>
+						<altitude>0</altitude>
+						<heading>-83.23190836877463</heading>
+						<tilt>29.34000167637358</tilt>
+						<range>411.683965537221</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<coordinates>145.1707003401713,-37.85400340878612,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Club Hotel</name>
+					<LookAt>
+						<longitude>145.2762410324792</longitude>
+						<latitude>-37.88240265341484</latitude>
+						<altitude>0</altitude>
+						<heading>-156.2673534051445</heading>
+						<tilt>7.731975935376314</tilt>
+						<range>273.8548843759402</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1519</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Club Hotel</SimpleData>
+							<SimpleData name="Address">848 Burwood Highway, Ferntree Gully</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.2763264628586,-37.88269816733995,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cramers Hotel</name>
+					<LookAt>
+						<longitude>145.0029006067819</longitude>
+						<latitude>-37.74092019100317</latitude>
+						<altitude>0</altitude>
+						<heading>-85.36309111268822</heading>
+						<tilt>0</tilt>
+						<range>237.6282221190682</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap155</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Cramers Hotel</SimpleData>
+							<SimpleData name="Address">1 Cramer Street, Preston</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.0025681650379,-37.74065099565861,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Deer Park Hotel</name>
+					<LookAt>
+						<longitude>144.7871193932347</longitude>
+						<latitude>-37.77067048714088</latitude>
+						<altitude>0</altitude>
+						<heading>154.8383072148764</heading>
+						<tilt>3.303047026781062</tilt>
+						<range>307.479381722203</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1520</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Deer Park Hotel</SimpleData>
+							<SimpleData name="Address">760 Ballarat Road, Deer Park</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>144.7876592155496,-37.77089540420293,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Doncaster Inn Hotel</name>
+					<styleUrl>#pointStyleMap1515664</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Doncaster Inn Hotel</SimpleData>
+							<SimpleData name="Address">855 Doncaster Road, Doncaster</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.1431878234309,-37.78662701351405,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ferntree Gully Hotel &amp; Motel</name>
+					<LookAt>
+						<longitude>145.2974663646706</longitude>
+						<latitude>-37.8891654904358</latitude>
+						<altitude>0</altitude>
+						<heading>-152.9270632953466</heading>
+						<tilt>0</tilt>
+						<range>323.1826538031287</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap158</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Ferntree Gully Hotel &amp; Motel</SimpleData>
+							<SimpleData name="Address">1130-2 Burwood Highway, Ferntree Gully</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.2971817619719,-37.88953390310629,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gateway Hotel</name>
+					<LookAt>
+						<longitude>144.3647352225163</longitude>
+						<latitude>-38.07977204251182</latitude>
+						<altitude>0</altitude>
+						<heading>-174.3078454372577</heading>
+						<tilt>0</tilt>
+						<range>677.0481200436988</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap156</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Gateway Hotel</SimpleData>
+							<SimpleData name="Address">218-230 Princes Highway, Corio</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>144.3643898447407,-38.08052082555521,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Keysborough Hotel</name>
+					<LookAt>
+						<longitude>145.1624996302219</longitude>
+						<latitude>-37.9918558438688</latitude>
+						<altitude>0</altitude>
+						<heading>-170.5378219751441</heading>
+						<tilt>0</tilt>
+						<range>388.9724700556717</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap154</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Keysborough Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Corrigan &amp; Cheltenham Roads, Keysborough</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.1622651477792,-37.99218155719428,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mac&apos;s Hotel</name>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Mac&apos;s Hotel</SimpleData>
+							<SimpleData name="Address">322-332 High Street, Melton</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>144.582538,-37.68251800000002,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Meadow Inn Hotel</name>
+					<LookAt>
+						<longitude>144.9568768916638</longitude>
+						<latitude>-37.69045841345103</latitude>
+						<altitude>0</altitude>
+						<heading>86.14613688083176</heading>
+						<tilt>0</tilt>
+						<range>409.4761549609683</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1513</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Meadow Inn Hotel</SimpleData>
+							<SimpleData name="Address">1431-1435 Sydney Road, Fawkner</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>144.957530738761,-37.69024531932838,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mitcham Hotel</name>
+					<LookAt>
+						<longitude>145.1941128352438</longitude>
+						<latitude>-37.81722591851562</latitude>
+						<altitude>0</altitude>
+						<heading>-10.34199776568871</heading>
+						<tilt>0</tilt>
+						<range>357.6614069747398</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1521</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Mitcham Hotel</SimpleData>
+							<SimpleData name="Address">566 Maroondah Highway, Mitcham</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.194014195984,-37.81680017440165,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Morwell Hotel</name>
+					<styleUrl>#pointStyleMap1517</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Morwell Hotel</SimpleData>
+							<SimpleData name="Address">311-327 Princes Drive, Morwell</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>146.4100383722977,-38.23908770139713,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Olinda Creek Hotel</name>
+					<styleUrl>#pointStyleMap1512</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Olinda Creek Hotel</SimpleData>
+							<SimpleData name="Address">161 Main Street, Lilydale</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.3488368085066,-37.75688918480574,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pier Hotel/21st Century</name>
+					<LookAt>
+						<longitude>145.1197300200253</longitude>
+						<latitude>-38.14478907738194</latitude>
+						<altitude>0</altitude>
+						<heading>-58.75066052816769</heading>
+						<tilt>7.376004251305385</tilt>
+						<range>532.3401771719492</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Pier Hotel/21st Century</SimpleData>
+							<SimpleData name="Address">508 Nepean Highway, Frankston</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.11955,-38.144681,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Plough Hotel</name>
+					<LookAt>
+						<longitude>145.0613126436102</longitude>
+						<latitude>-37.66699639113424</latitude>
+						<altitude>0</altitude>
+						<heading>-138.5619398783391</heading>
+						<tilt>0</tilt>
+						<range>368.4313118717788</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1518</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Plough Hotel</SimpleData>
+							<SimpleData name="Address">Stables Shopping Centre, Childs Rd, Mill Park</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.061422528103,-37.66761524563256,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Prince Mark Hotel</name>
+					<LookAt>
+						<longitude>145.2340500485028</longitude>
+						<latitude>-38.00049330803674</latitude>
+						<altitude>0</altitude>
+						<heading>-169.7995799714175</heading>
+						<tilt>0</tilt>
+						<range>400.9106948153903</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1514</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Prince Mark Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Princes Highway &amp; Power Road, Doveton</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.2338149664073,-38.00037182189669,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Royal Exchange Hotel</name>
+					<styleUrl>#pointStyleMap159</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Royal Exchange Hotel</SimpleData>
+							<SimpleData name="Address">64 Princes Highway, Traralgon</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>146.5354783859519,-38.19844589459108,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sandbelt Hotel</name>
+					<styleUrl>#pointStyleMap15155</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Sandbelt Hotel</SimpleData>
+							<SimpleData name="Address">Cnr South &amp; Bignell Roads, Moorabbin</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.0678945410939,-37.93813403578275,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sandown Park Hotel</name>
+					<LookAt>
+						<longitude>145.1721821278725</longitude>
+						<latitude>-37.94919220137032</latitude>
+						<altitude>0</altitude>
+						<heading>-132.0178346612011</heading>
+						<tilt>0</tilt>
+						<range>662.7547770029156</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151514</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Sandown Park Hotel</SimpleData>
+							<SimpleData name="Address">Princes Highway, Noble Park</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.1726582438425,-37.9489294045856,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sandringham Hotel</name>
+					<LookAt>
+						<longitude>145.0035197242703</longitude>
+						<latitude>-37.95109371897019</latitude>
+						<altitude>0</altitude>
+						<heading>-126.1307039860068</heading>
+						<tilt>9.897208225456996</tilt>
+						<range>514.1071559652121</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15152</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Sandringham Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Beach and Bay Roads, Sandringham</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.0034702895037,-37.95113686129468,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Somerville Hotel</name>
+					<LookAt>
+						<longitude>145.1725883148432</longitude>
+						<latitude>-38.22419025939518</latitude>
+						<altitude>0</altitude>
+						<heading>7.572164664114585</heading>
+						<tilt>0</tilt>
+						<range>617.2870327414319</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15150</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Somerville Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Station and Edward Streets, Somerville</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.1742957915496,-38.22416572040033,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Stamford Inn Hotel</name>
+					<styleUrl>#pointStyleMap151513</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Stamford Inn Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Stud &amp; Wellington Roads, Rowville</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.2321733826622,-37.92725070411759,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sylvania Hotel</name>
+					<LookAt>
+						<longitude>144.9545907091132</longitude>
+						<latitude>-37.67259421895241</latitude>
+						<altitude>0</altitude>
+						<heading>7.710215403883957</heading>
+						<tilt>14.69344763289283</tilt>
+						<range>430.3076331725027</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151512</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Sylvania Hotel</SimpleData>
+							<SimpleData name="Address">1631 Sydney Rd/Hume Hwy, Campbellfield</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>144.9546822539572,-37.67286598090891,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>The Vale Hotel</name>
+					<styleUrl>#pointStyleMap15157</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">The Vale Hotel</SimpleData>
+							<SimpleData name="Address">2277 Dandenong Rd/Princes Hwy, Mulgrave</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.1548008702642,-37.93055569140637,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Tudor Inn Hotel</name>
+					<LookAt>
+						<longitude>145.0574516201815</longitude>
+						<latitude>-37.96392633845699</latitude>
+						<altitude>0</altitude>
+						<heading>-121.4448357985076</heading>
+						<tilt>0</tilt>
+						<range>396.8264122452391</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap1515</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Tudor Inn Hotel</SimpleData>
+							<SimpleData name="Address">1281 Nepean Highway, Cheltenham</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.0571846807409,-37.96396269403335,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Victoria Hotel</name>
+					<LookAt>
+						<longitude>145.3991793485067</longitude>
+						<latitude>-36.37884478928608</latitude>
+						<altitude>0</altitude>
+						<heading>8.593830179120475</heading>
+						<tilt>0</tilt>
+						<range>348.7221943759031</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15151</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Victoria Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Wyndham and Fryer Streets, Shepparton</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.3992003476243,-36.37867641907795,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Village Green Hotel</name>
+					<LookAt>
+						<longitude>145.1599819593522</longitude>
+						<latitude>-37.90439134930804</latitude>
+						<altitude>0</altitude>
+						<heading>3.294479846954322</heading>
+						<tilt>0</tilt>
+						<range>579.6729356675907</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15153</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Village Green Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Springvale &amp; Ferntree Gully Rds, Glen Waverley</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>145.1597587701351,-37.90429073533587,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Young &amp; Jacksons Hotel</name>
+					<LookAt>
+						<longitude>144.9674269298372</longitude>
+						<latitude>-37.81770753898492</latitude>
+						<altitude>0</altitude>
+						<heading>160.605977893262</heading>
+						<tilt>16.06320294513994</tilt>
+						<range>354.1453718440703</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15154</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Young &amp; Jacksons Hotel</SimpleData>
+							<SimpleData name="Address">Cnr Swanston &amp; Flinders Sts, Melbourne</SimpleData>
+							<SimpleData name="State">VIC</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>144.9670161878614,-37.81731307599104,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Balmoral</name>
+					<styleUrl>#pointStyleMap15156640</styleUrl>
+					<Style id="inline">
+						<IconStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+							<Icon>
+								<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+							</Icon>
+						</IconStyle>
+						<LineStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</LineStyle>
+						<PolyStyle>
+							<color>ff00ffff</color>
+							<colorMode>normal</colorMode>
+						</PolyStyle>
+					</Style>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Balmoral</SimpleData>
+							<SimpleData name="Address">901 Albany Highway, East Victoria Park</SimpleData>
+							<SimpleData name="State">WA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>115.904475,-31.98723799999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Brass Monkey</name>
+					<LookAt>
+						<longitude>115.8594304930786</longitude>
+						<latitude>-31.94844809773909</latitude>
+						<altitude>0</altitude>
+						<heading>-151.6038803404834</heading>
+						<tilt>0</tilt>
+						<range>724.9725295806893</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15158</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Brass Monkey</SimpleData>
+							<SimpleData name="Address">209 William Street, Northbridge</SimpleData>
+							<SimpleData name="State">WA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>115.8592176738538,-31.94881375742554,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Queens Tavern</name>
+					<LookAt>
+						<longitude>115.870823756834</longitude>
+						<latitude>-31.93825449838766</latitude>
+						<altitude>0</altitude>
+						<heading>-62.55703425792675</heading>
+						<tilt>1.228693975810004</tilt>
+						<range>274.823010526428</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap15159</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Queens Tavern</SimpleData>
+							<SimpleData name="Address">520 Beaufort Street, Highgate</SimpleData>
+							<SimpleData name="State">WA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>115.8700612466292,-31.9382591981436,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sail &amp; Anchor Pub Brewery</name>
+					<LookAt>
+						<longitude>115.7490568275054</longitude>
+						<latitude>-32.05646859328451</latitude>
+						<altitude>0</altitude>
+						<heading>29.82744953138764</heading>
+						<tilt>0</tilt>
+						<range>285.3434956135657</range>
+						<altitudeMode>relativeToSeaFloor</altitudeMode>
+					</LookAt>
+					<styleUrl>#pointStyleMap151510</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#S_Property_Addresses___Google_SSS">
+							<SimpleData name="Property">Sail &amp; Anchor Pub Brewery</SimpleData>
+							<SimpleData name="Address">64 South Terrace, Freemantle</SimpleData>
+							<SimpleData name="State">WA</SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Point>
+						<coordinates>115.748655082399,-32.05605736025599,0</coordinates>
+					</Point>
+				</Placemark>
+</Places>

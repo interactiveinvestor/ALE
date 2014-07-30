@@ -1,0 +1,20 @@
+<?php 
+
+
+function email_page_menu() {
+	$items = array();
+	$items['email-page'] = array(
+	'title'=>'Email Page',
+	'page callback'=>'email_page',
+	'access arguments' => array('access content')
+	);	
+
+	return $items;
+}
+
+function email_page(){
+	
+
+	
+	
+}

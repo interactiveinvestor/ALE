@@ -1,0 +1,261 @@
+/*//////////////////////////////////////////*/
+/*//////// PORTRAIT & LANDSCAPE ///////////*/
+/*//////////////////////////////////////////*/
+
+@media @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+.my-compendium a{font-size: 0.85em !important;}
+body{font-size: 0.75em;}
+#page {margin-top: 10px;}
+
+#property-info-map {
+
+    top: 5px;
+}
+
+/* My Comment */
+.left-column .node {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+.page-advanced-property-search #page, .page-my-compendium #page{margin-top: 30px;}
+.search-land-area li {
+	
+	height: 35px !important;
+	/*overflow: hidden !important;*/
+}
+.search-land-area li label{margin-top: -4px;}	
+#wrapper {max-width: 600px;}
+
+
+#gallery-controls-holder{
+	position: absolute;
+	bottom: 30px;
+	left: 15px;
+	width: 100px;
+	height: 130px;
+	background: url(images/bg-homeslide-pager.png) repeat;
+	border-radius:4px;
+}
+
+.group-slide-text{
+	width: 100px;
+	height: 92px;
+}
+
+.slideIndex li {
+    height: 6px;
+    margin: 0 2px;
+    width: 12px;
+}
+
+.group-slide-text span {
+    padding: 10px 0px 0;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
+.interactive-map-holder {
+    bottom: 45px;
+    left: 2%;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 190px !important;
+    position: fixed !important;
+    right: 2%;
+    top: -40px;
+    width: 96%;
+    z-index: 0;
+}
+
+#footer{
+	
+	margin-top: -65px; /* negative value of footer height */
+
+	
+}
+.top-nav {
+    width: 40%;
+}
+
+#logo{
+	width: 60%;
+}
+#logo img{
+	width: 80px;
+}
+
+#site-slogan {
+    top: 16px;
+}
+nav{
+	margin-top: 0;
+}
+
+#search-api-page-search-form-search .form-type-textfield {
+    margin-top: 5px;
+}
+
+.highlight-hovers {
+    margin-top: 5px !important;
+}
+
+.front .main-content h2, .highlights .group-body-holder h2, .highlight-hovers h2 {
+    padding-bottom: 13px !important;
+}
+
+
+.front .main-content .field-name-body, .highlights .group-body-holder h4, .highlight-hovers h4 {
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin: 10px auto;
+}
+
+.page-node-293 #page{
+	margin-top: 0px;
+}
+
+}
+
+/*//////////////////////////////////////////*/
+/*////////      LANDSCAPE        ///////////*/
+/*//////////////////////////////////////////*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) ,only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape){
+	
+/*#logo img {
+    width: 90px !important;
+}*/
+#header{padding-top: 10px;}
+.home-slide-gallery{margin-top: -10px;}
+.highlights li .node .group-holder {top: 35px;}
+.highlights li.views-row-1 .group-holder, .highlights li.views-row-8 .group-holder {top: 100px;}
+.interactive-map-holder{top: -90px;}
+
+
+/*.desktop-highlights{
+	width: 100%;
+	left: 7%;
+}
+
+.highlights li.views-row-8 {
+    padding-bottom: 34.4803%;
+}
+
+
+.highlights li {
+
+    padding-bottom: 14.6274%;
+
+}
+.highlights li.views-row-1{
+	padding-bottom: 30.4803%;
+}*/
+
+
+.highlights li .node .group-holder {
+    top: 20px;
+}
+.highlights li.views-row-8 .group-holder {
+    top: 75px;
+}
+.highlights li.views-row-1 .group-holder {
+    top: 75px;
+}
+/*
+
+
+.highlight-hovers li {
+
+    padding-top: 10px;
+
+}*/
+
+
+/*
+
+
+
+
+*/
+
+}
+/*//////////////////////////////////////////*/
+/*////////      Portrait        ///////////*/
+/*//////////////////////////////////////////*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) ,only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait){
+
+body{font-size: 1em;}
+.highlights li .node .group-holder {
+    top: 30px;
+}
+.highlights li.views-row-1 .group-holder, .highlights li.views-row-8 .group-holder {
+    top: 90px;
+}
+
+/*.interactive-map-holder{
+    top: 134px;
+	bottom: 70px;
+}*/
+
+
+}
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}*/
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {         
+
+/*.scroll-down{
+	background: url(images/ipad/arrow.png) no-repeat right;
+	background-size: 72px 36px;
+
+}
+
+.scroll-top{
+	background: url(images/ipad/arrow-top.png) no-repeat right;
+	background-size: 72px 36px;
+}*/
+
+
+
+#logo img{
+	display: none;
+}
+
+#logo{
+	background: url(../images/logo-print.jpg) no-repeat left top;
+	background-size: 91.8px 39px;
+	height: 39px;
+}
+
+
+
+#logo h2{
+	top: 23px;
+	padding-left: 150px;
+}
+
+
+#block-search-api-page-search .btn input{
+	background: url(images/ipad/search.png) no-repeat center center;
+	background-size: 15px 16px;
+}
+
+
+
+.close-btn{
+	background: url(images/ipad/close-btn.png) no-repeat;
+	background-size: 17px 18px;
+}
+
+
+}
+
+

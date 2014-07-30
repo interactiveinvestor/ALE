@@ -1,0 +1,10 @@
+body,#wrapper{
+	min-width: 1100px;
+}
+
+
+.marker-info{
+	background: transparent;
+    filter:
+    progid:DXImageTransform.Microsoft.AlphaImageLoader(src=images/map-item-bg.png,sizingMethod='crop');
+}
